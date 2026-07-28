@@ -17,7 +17,7 @@ public class ChildToParent {
 		driver.manage().window().maximize();
 		driver.get("https://www.amazon.com/");
 		driver.findElement(By.className("a-button-input")).click();
-		
+//	
 		WebElement ab =driver.findElement(By.xpath("//option[text()='All Departments']/parent::select"));
 		String catagory = ab.getText();
 		System.out.println(catagory);
