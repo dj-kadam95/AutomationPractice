@@ -18,7 +18,7 @@ public class C_May_30_loginPage extends B_May_30_base_test{
 		
 		A_May_30_loginPage LP = url.login();
 		
-		LP.login("dkdhananjay77@gmail.com", "Shubh@15061995");
+		LP.login("dkdhananjay77@gmail.com", "Shubh@1561995");
 		System.out.println(driver.getTitle());
 		Thread.sleep(1000);
 
@@ -32,7 +32,7 @@ public class C_May_30_loginPage extends B_May_30_base_test{
 			Thread.sleep(1000);
 
 			System.out.println(LP.actualMsg());
-			System.out.println(Expected3);
+			//System.out.println(Expected3);
 			Assert.assertEquals(LP.actualMsg(), Expected3, "True............");
 		
 		} else {

@@ -1,8 +1,11 @@
 package assg_108_127;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class Assignment_121 {
@@ -14,18 +17,21 @@ public class Assignment_121 {
 //		confirm password on the registration. 
 //		link :   https://grotechminds.com/registration/
 			
-		EdgeDriver driver = new EdgeDriver();
+		ChromeDriver driver = new ChromeDriver();
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
 		driver.manage().window().maximize();
+		Thread.sleep(10000);
 		driver.get("https://grotechminds.com/registration/");
 		
-		WebElement fname = driver.findElement(By.id("fname"));
-		fname.sendKeys("dkdhananjay77@gmail.com");
+		
+		WebElement Fname = driver.findElement(By.xpath("//input[@id='fname']"));
+		Fname.sendKeys("dkdhananjay77@gmail.com");
 		Thread.sleep(2000);
 		
-		fname.sendKeys(Keys.CONTROL+"A"+"C"+Keys.BACK_SPACE);
+		Fname.sendKeys(Keys.CONTROL+"A"+"C"+Keys.BACK_SPACE);
 		Thread.sleep(2000);
 		
-		fname.sendKeys("Dhananjay");
+		Fname.sendKeys("Dhananjay");
 		Thread.sleep(3000);
 		
 		WebElement lname = driver.findElement(By.id("lname"));

@@ -31,7 +31,7 @@ public class A03_listners implements ITestListener {
 		
 		TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\dhkadam\\OneDrive - Capgemini\\Pictures\\Saved Pictures\\success.png");
+		File dest = new File("C:\\Users\\Dnyaneshwar\\Pictures\\Saved Pictures\\success.png");
 	    try {
 			FileHandler.copy(src, dest);
 		} catch (IOException e) {
@@ -50,7 +50,7 @@ public class A03_listners implements ITestListener {
 		Reporter.log("failed");
 		TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\dhkadam\\OneDrive - Capgemini\\Pictures\\Saved Pictures\\failed.png");
+		File dest = new File("C:\\Users\\Dnyaneshwar\\Pictures\\Saved Pictures\\failed.png");
 		try {
 			FileHandler.copy(src, dest);
 		} catch (IOException e) {
