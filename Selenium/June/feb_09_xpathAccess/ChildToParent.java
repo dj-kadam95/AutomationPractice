@@ -1,14 +1,11 @@
 package feb_09_xpathAccess;
 
 import java.time.Duration;
-import java.util.HashMap;
-import java.util.Map;
 import org.openqa.selenium.WebElement;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.edge.EdgeOptions;
 
 public class ChildToParent {
 
@@ -21,10 +18,10 @@ public class ChildToParent {
 		driver.get("https://www.amazon.com/");
 		driver.findElement(By.className("a-button-input")).click();
 		
-//		WebElement ab =driver.findElement(By.xpath("//option[text()='All Departments']/parent::select"));
-//		String catagory = ab.getText();
-//		System.out.println(catagory);
-//		ab.click();
+		WebElement ab =driver.findElement(By.xpath("//option[text()='All Departments']/parent::select"));
+		String catagory = ab.getText();
+		System.out.println(catagory);
+		ab.click();
 		
 		WebElement search = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 		search.sendKeys("Motorola");
