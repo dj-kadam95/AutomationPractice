@@ -1,0 +1,27 @@
+package apr25;
+
+public class A01_typecasting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int a = 20;
+		
+		double b = a;
+		
+		System.out.println(b);
+		
+		double c = 4254.465;
+		
+		int d = (int) c;
+		
+		System.out.println(d);
+		
+		byte e = 12;
+		
+		int f = (byte)e;
+
+		System.out.println(f);
+	}
+
+}

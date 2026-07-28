@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;A17_map_interface.java&apos; to &apos;Java/april/apr11__18_collection&apos;&#x0D;&#x0A;- Original project: &apos;Java&apos;&#x0D;&#x0A;- Destination element: &apos;Java/april/apr11__18_collection&apos;&#x0D;&#x0A;- Original element: &apos;apr11__18_collection.A17_map_interface.java&apos;" description="Copy compilation unit" destination="/april&lt;apr11__18_collection" element1="/april&lt;apr11__18_collection{A17_map_interface.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1756621222132" units="1" version="1.0"/>
+</session>

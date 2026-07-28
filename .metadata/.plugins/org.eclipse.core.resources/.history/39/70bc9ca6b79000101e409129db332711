@@ -1,0 +1,26 @@
+package apr25;
+
+import java.util.Date;
+
+public class A02_date_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Date d1 = new Date();
+		
+		Long d2 = d1.getTime();
+		
+		System.out.println(d2);  
+		
+		Date d3 = new Date(d1.getTime());
+		
+		System.out.println(d3);  
+		
+		String f1 = d3.toString();
+		
+		System.out.println(f1);
+
+	}
+
+}

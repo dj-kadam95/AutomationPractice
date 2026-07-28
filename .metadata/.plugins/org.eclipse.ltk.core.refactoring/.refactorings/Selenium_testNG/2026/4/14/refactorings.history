@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;A101_explicite_wait.java&apos; to &apos;Selenium_testNG/June/June_10&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_testNG&apos;&#x0D;&#x0A;- Destination element: &apos;Selenium_testNG/June/June_10&apos;&#x0D;&#x0A;- Original element: &apos;June_10.A101_explicite_wait.java&apos;" description="Copy compilation unit" destination="/June&lt;June_10" element1="/June&lt;June_10{A101_explicite_wait.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1775293874066" units="1" version="1.0"/>
+</session>

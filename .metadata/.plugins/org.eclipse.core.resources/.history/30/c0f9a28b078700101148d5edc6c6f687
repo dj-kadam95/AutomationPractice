@@ -1,0 +1,33 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+
+public class Assignment_72 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP on basic concept of array
+		
+		int[] a = new int[5];
+		
+		a[0]=23;
+		a[1]=44;
+		a[2]=67;
+		a[3]=9;
+		a[4]=24;
+		
+        String b[] = new String[5];
+		
+		b[0]="abcd";
+		b[1]="efgh";
+		b[2]="ijkl";
+		b[3]="mnop";
+		b[4]="qrst";
+		
+		System.out.println(Arrays.toString(a));
+		
+		
+	}
+
+}

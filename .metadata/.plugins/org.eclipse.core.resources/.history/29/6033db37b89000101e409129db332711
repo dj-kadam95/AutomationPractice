@@ -1,0 +1,36 @@
+package apr25;
+
+import java.util.Date;
+
+public class A02_date_class {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Date d1 = new Date();
+		
+//		Long d2 = d1.getTime();
+//		
+//		System.out.println(d2);  
+		
+		// current Date
+		
+		Date d3 = new Date(d1.getTime());
+		
+		System.out.println(d3);  
+		
+		String f1 = d3.toString();
+		
+		System.out.println(f1);
+		
+		String date = f1.substring(8, 10);
+		
+		String month = f1.substring(4, 7);
+		
+		String year = f1.substring(24, 28);
+		
+		System.out.println(date.concat(" "+month).concat(" "+year));
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package apr11__18_collection;
+
+import java.util.Vector;
+
+public class A16_C_vector_methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		we dont need to upcasting a vector is a class not an interface,
+//		we do create object of vector class
+
+		Vector<Integer> v = new Vector<>(); // inherites List by defaults
+
+		v.addElement(null);
+		v.addElement(2);
+		int a = v.firstElement();
+
+		System.out.println(v.firstElement());
+	}
+
+}

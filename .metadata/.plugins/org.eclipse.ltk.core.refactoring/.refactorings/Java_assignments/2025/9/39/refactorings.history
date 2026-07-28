@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;assg_001_036&apos; to &apos;assignments_001_036&apos;&#x0D;&#x0A;- Original project: &apos;Java_assignments&apos;&#x0D;&#x0A;- Original element: &apos;Java_assignments/src/assg_001_036&apos;&#x0D;&#x0A;- Renamed element: &apos;Java_assignments/src/assignments_001_036&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;assg_001_036&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;assg_001_036" name="assignments_001_036" qualified="false" references="true" stamp="1758436272096" textual="false" version="1.0"/>
+</session>

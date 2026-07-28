@@ -1,0 +1,43 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Assignment_77 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP to check if two arrays are equals to each other at run time
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter array size");
+		int length = sc.nextInt();
+		
+		String[] str1 =new String[length];
+		String[] str2 =new String[length];
+		
+		for(int i =0; i<length; i++) {
+			
+			System.out.print("enter a string value : ");
+			str1[i] = sc.next();
+			str2[i] = sc.next();
+		     
+	
+		}		
+		System.out.println("\n"+Arrays.toString(str1));
+		System.out.println("\n"+Arrays.toString(str2));
+		
+		if(str2.equals(str1)) {	
+			System.out.print("both the arrays are same");			
+		}else {		
+			System.out.print("both the arrays are same");
+		}
+		
+		sc.close();
+		
+		
+	}
+
+}

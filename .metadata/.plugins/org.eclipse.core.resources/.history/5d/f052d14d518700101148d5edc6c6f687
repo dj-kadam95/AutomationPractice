@@ -1,0 +1,39 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+
+public class Assignment_82 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP to copy one array into another array in reverse order
+		
+		String[] str1 =new String[4];
+		
+		str1[0]="MNOP";
+		str1[1]="IJKL";
+		str1[2]="ABCD";
+		str1[3]="EFGH";
+		
+		String[] str2 =new String[4];
+		
+		str2[3]="EFGH";
+		str2[2]="ABCD";
+		str2[1]="IJKL";
+		str2[0]="MNOP";
+		
+		Arrays.sort(str1);
+		Arrays.sort(str2);
+		
+		String s1 =Arrays.toString(str1);
+		
+		System.out.println("\nstr1 : "+s1);
+		
+		String s2 =Arrays.toString(str1);
+	
+		System.out.println("\nstr2 : "+s2);
+	
+	}
+
+}

@@ -1,0 +1,48 @@
+1756014236487	Copy compilation unit
+1756015790144	Copy compilation unit
+1756018025102	Copy compilation unit
+1756018040236	Copy compilation unit
+1756018046434	Copy compilation unit
+1756018051525	Copy compilation unit
+1756018209951	Copy compilation unit
+1756034868433	Rename source folder 'src'
+1756034881159	Rename resource 'April'
+1756035014664	Rename resource 'april'
+1756035073546	Delete element
+1756035081316	Delete element
+1756036304334	Rename package 'oops_01'
+1756036331345	Rename package 'oops_01_access_specifiers'
+1756036472151	Copy compilation unit
+1756037910119	Rename package 'apr01_access_specifiers'
+1756037923822	Copy package
+1756037955033	Rename type 'A01_access_specifier_A'
+1756039724779	Rename package 'apr01_access_specifiers1'
+1756039742706	Rename package 'apr01_access_specifiers2'
+1756040072012	Delete element
+1756040414639	Rename compilation unit 'A01.java'
+1756040663988	Delete element
+1756040669919	Delete element
+1756040973757	Rename type 'A01'
+1756040999355	Copy compilation unit
+1756041236671	Rename package 'apr01_access_specifiers_methods1'
+1756041256752	Rename package 'apr01_access_specifiers_methods2'
+1756041326902	Rename package 'apr01_access_specifiers'
+1756041358115	Rename type 'A01_access_specifier_B'
+1756041377700	Rename type 'A01_access_specifier_C'
+1756041399506	Rename type 'A01_access_specifierD'
+1756041417297	Rename type 'A01_default_class'
+1756041432303	Rename type 'A01_public_class'
+1756114135832	Copy compilation unit
+1756115750428	Copy compilation unit
+1756115839744	Copy package
+1756115849974	Copy package
+1756341417123	Delete element
+1756455708958	Rename package 'apr10_string_buffer_builder'
+1756455734767	Rename package 'apr10_string_buffer'
+1756455748541	Rename type 'A01_string_buffer_builder'
+1756455763487	Copy compilation unit
+1756463795942	Rename package 'apr11'
+1756476974741	Delete element
+1756476981076	Delete element
+1756489151612	Infer generic type arguments
+1756490192940	Rename package 'apr11_collection'

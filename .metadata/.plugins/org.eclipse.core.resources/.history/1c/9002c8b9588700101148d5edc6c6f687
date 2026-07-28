@@ -1,0 +1,19 @@
+package assignments_072_90;
+
+public class Assignment_84 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP on String functions using replace, replaceAll; substring
+//		matches, repeat
+
+		String s = "Dhananjay Kadam";
+		System.out.println("s");
+
+		String s1 =s.replace("kadam", "Deshmukh");
+		System.out.println("s1");
+		
+	}
+
+}

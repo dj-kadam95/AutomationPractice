@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;A01_data_driven_testing.java&apos; to &apos;Selenium_testNG/may/may26&apos;&#x0D;&#x0A;- Original project: &apos;Selenium&apos;&#x0D;&#x0A;- Destination element: &apos;Selenium_testNG/may/may26&apos;&#x0D;&#x0A;- Original element: &apos;may_16.A01_data_driven_testing.java&apos;" description="Copy compilation unit" destination="=Selenium_testNG/may=/optional=/true=/=/maven.pomderived=/true=/&lt;may26" element1="/may=/optional=/true=/=/maven.pomderived=/true=/&lt;may_16{A01_data_driven_testing.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1766279656125" units="1" version="1.0"/>
+</session>

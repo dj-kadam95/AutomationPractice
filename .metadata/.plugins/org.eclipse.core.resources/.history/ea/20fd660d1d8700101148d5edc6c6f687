@@ -1,0 +1,37 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Assignment_73 {
+
+	public static void main(String args) {
+		// TODO Auto-generated method stub
+
+//		WAP on string function using concept of toCharArray
+		
+		main1(args);
+		
+		
+	}
+	
+	static void main1(String args) {
+		// TODO Auto-generated method stub
+
+//		WAP on string function using concept of toCharArray
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a string");
+		
+		String s = sc.next();
+		
+		char[] c = s.toCharArray();
+		
+		System.out.println(Arrays.toString(c));
+		
+		sc.close();
+		
+		
+	}
+
+}

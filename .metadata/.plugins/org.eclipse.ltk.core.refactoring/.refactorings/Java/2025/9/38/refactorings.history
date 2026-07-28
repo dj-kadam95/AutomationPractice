@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;apr21_oops.Assignment_62&apos; to &apos;A03_nested_try_catch&apos;&#x0D;&#x0A;- Original project: &apos;Java&apos;&#x0D;&#x0A;- Original element: &apos;apr21_oops.Assignment_62&apos;&#x0D;&#x0A;- Renamed element: &apos;apr21_oops.A03_nested_try_catch&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Assignment_62&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/april&lt;apr21_oops{Assignment_62.java[Assignment_62" matchStrategy="1" name="A03_nested_try_catch" qualified="false" references="true" similarDeclarations="false" stamp="1758130112661" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+package assignments_072_90;
+
+public class Snippet {
+	public static void main(String[] args) {
+		Arrays.toString(str1)
+	}
+}
+

@@ -1,0 +1,42 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+
+public class Assignment_83 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP to find out if given two String are anagram 
+		
+		String s = "abcd@12  45A &";
+		
+		char[] str1 = s.toCharArray();
+		System.out.println(str1.length);
+		
+//		Character.isAlphabetic(str1);
+//		
+//		String s1 =Arrays.toString(str1);
+//		
+//		System.out.println("\nstr1 : "+s1);
+//		
+//		String s2 =Arrays.toString(str1);
+//	
+//		System.out.println("\nstr2 : "+s2);
+//		
+//		boolean b =s1.equals(s2);
+//		System.out.println("\n"+b);
+//
+//		if (str1.length == str2.length) {
+//
+//			System.out.println("\nanagram length");
+//			if (b == true) {
+//				System.out.println("\nanagram sort");
+//			}
+//		} else {
+//			System.out.println("\nnot anagram");
+//		}
+	
+	}
+
+}

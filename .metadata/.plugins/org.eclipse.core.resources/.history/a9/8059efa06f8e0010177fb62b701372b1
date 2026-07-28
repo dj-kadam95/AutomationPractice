@@ -1,0 +1,21 @@
+package apr21_oops;
+
+import java.lang.ArrayIndexOutOfBoundsException;
+
+public class A01_exception {
+
+	public static void main(String[] args) throws ArrayIndexOutOfBoundsException,ArithmeticException  {
+		// TODO Auto-generated method stub
+
+		if(1==1) {
+			
+			throw new ArrayIndexOutOfBoundsException("array size is defined less");
+			
+		}else {
+			throw new ArithmeticException("");
+		}
+		
+		
+	}
+
+}

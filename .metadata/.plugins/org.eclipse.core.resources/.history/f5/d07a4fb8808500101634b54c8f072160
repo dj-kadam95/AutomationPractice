@@ -1,0 +1,22 @@
+package apr11__18_collection;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class A16_B_set_methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Set<Integer> s = new HashSet<>();
+		
+//		add method
+		
+		s.add(12);
+		s.add(2);
+		s.add(4);
+		System.out.println(s);	
+
+	}
+
+}
