@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 
 public class Assignment_121 {
 
@@ -18,7 +17,7 @@ public class Assignment_121 {
 //		link :   https://grotechminds.com/registration/
 			
 		ChromeDriver driver = new ChromeDriver();
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
 		driver.manage().window().maximize();
 		Thread.sleep(10000);
 		driver.get("https://grotechminds.com/registration/");
