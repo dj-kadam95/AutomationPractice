@@ -60,7 +60,7 @@ public class A02_retry_analyzer2 extends A03_listners {
 	public Object[][] searchData() throws EncryptedDocumentException, IOException {
 
 		FileInputStream excel = new FileInputStream(
-				"C:\\GitCode\\AutomationPractice\\DDT.xlsx");
+				"C:\\Users\\Dnyaneshwar\\OneDrive\\DDT.xlsx");
 		Workbook wb = WorkbookFactory.create(excel);
 
 		String[] id = new String[3];

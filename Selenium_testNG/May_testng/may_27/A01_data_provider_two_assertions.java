@@ -60,7 +60,7 @@ public class A01_data_provider_two_assertions {
 	public Object[][] searchData() throws EncryptedDocumentException, IOException {
 
 		FileInputStream excel = new FileInputStream(
-				"C:\\Users\\dhkadam\\OneDrive - Capgemini\\Documents\\Grotechminds\\Selenium\\may\\may_16\\DDT.xlsx");
+				"C:\\Users\\Dnyaneshwar\\OneDrive\\DDT.xlsx");
 		Workbook wb = WorkbookFactory.create(excel);
 
 		String[] id = new String[3];

@@ -14,6 +14,7 @@ public class Assignment_119 {
 
 		EdgeDriver driver = new EdgeDriver();
 		driver.get("https://www.amazon.in/");
+		Thread.sleep(10000);
 		WebElement search = driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']"));
 		search.sendKeys("Motorola");
 		search.sendKeys(Keys.ENTER);

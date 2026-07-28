@@ -1,17 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-28T16:29:02 IST" name="Default suite" finished-at="2026-07-28T16:29:06 IST" duration-ms="4626">
+  <suite started-at="2026-07-28T17:21:22 IST" name="Default suite" finished-at="2026-07-28T17:21:22 IST" duration-ms="67">
     <groups>
     </groups>
-    <test started-at="2026-07-28T16:29:02 IST" name="Default test" finished-at="2026-07-28T16:29:06 IST" duration-ms="4626">
-      <class name="may_29.A02_typing_on_compenent_without_sendkeys_using_JSE">
-        <test-method signature="broken_links()[pri:0, instance:may_29.A02_typing_on_compenent_without_sendkeys_using_JSE@38afe297]" started-at="2026-07-28T16:29:02 IST" name="broken_links" finished-at="2026-07-28T16:29:06 IST" duration-ms="4583" status="PASS">
+    <test started-at="2026-07-28T17:21:22 IST" name="Default test" finished-at="2026-07-28T17:21:22 IST" duration-ms="67">
+      <class name="may_19.A03_testng_annotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="beforeSuite" finished-at="2026-07-28T17:21:22 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- broken_links -->
-      </class> <!-- may_29.A02_typing_on_compenent_without_sendkeys_using_JSE -->
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="beforetest" finished-at="2026-07-28T17:21:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="beforeClass" finished-at="2026-07-28T17:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="beforemethod" finished-at="2026-07-28T17:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="test" finished-at="2026-07-28T17:21:22 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="aftermethod" finished-at="2026-07-28T17:21:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method signature="test1()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="test1" finished-at="2026-07-28T17:21:22 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="beforemethod" finished-at="2026-07-28T17:21:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="aftermethod" finished-at="2026-07-28T17:21:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="AfterClass" finished-at="2026-07-28T17:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="aftertest" finished-at="2026-07-28T17:21:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:may_19.A03_testng_annotations@1ebd319f]" started-at="2026-07-28T17:21:22 IST" name="afterSuite" finished-at="2026-07-28T17:21:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- may_19.A03_testng_annotations -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

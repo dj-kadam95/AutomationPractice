@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="may_29.A01_broken_links">
+      <class name="may_27.A01_data_provider_two_assertions">
         <methods>
-          <include name="broken_links"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- may_29.A01_broken_links -->
+      </class> <!-- may_27.A01_data_provider_two_assertions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
