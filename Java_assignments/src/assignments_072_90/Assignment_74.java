@@ -1,0 +1,43 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Assignment_74 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP to pass anything at runtime using args variable in main method
+		
+		main1(args);
+		
+	}
+	
+	static void main1(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter a string");
+		
+		String s = sc.next();
+		
+		char[] c = s.toCharArray();
+		
+		System.out.println("enter array size");
+		int i = sc.nextInt();
+		
+		int[] i1 =new int[i];
+		
+		for(int j =0; j<i; j++) {
+			
+			i1[j]=sc.nextInt();
+		}		
+		System.out.println(Arrays.toString(c));
+		System.out.println(Arrays.toString(i1));
+		
+		sc.close();
+		
+		
+	}
+
+}

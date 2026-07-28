@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" name="parellel">
+    <classes>
+      <class name="may_19.A02_login_practice" />  
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="login">
+    <classes>
+      <class name="may_20.A05_parellel_crossBrowser_testing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

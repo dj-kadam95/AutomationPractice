@@ -1,0 +1,55 @@
+package apr11__18_collection;
+
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class A16_B_set_methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Set<Integer> s1 = new HashSet<>();
+		
+//		1. add method
+		
+		s1.add(12);
+		s1.add(2);
+		s1.add(2);
+		s1.add(4);
+		s1.add(null);
+		System.out.println(s1);	
+
+		Set<String> s2 = new HashSet<>();
+		s2.add("Dhananjay");
+		s2.add("Dhananjay");
+		s2.add("DJ");
+		s2.add("Vaishnavi");
+		s2.add("Harsha");  
+		s2.add(null);  
+		System.out.println(s2);	
+		
+//		Set s3 = new HashSet<>();
+//		
+//		s3.add(12);
+//		s3.add("Dhananjay");
+//		System.out.println(s3);	
+		
+//		2. Iterator
+		
+		Iterator<String> a = s2.iterator();
+		boolean b7 = a.hasNext();
+		System.out.println(b7);
+//		int b =a.next();
+//		int c =a.next();
+//		System.out.println(c+b);
+
+		while (a.hasNext() == true) {
+			String d = a.next();
+			System.out.println(d);
+
+		}
+		
+	}
+
+}

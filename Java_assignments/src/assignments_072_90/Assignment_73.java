@@ -1,0 +1,20 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+
+public class Assignment_73 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP on string function using concept of toCharArray
+		
+        String s = "Dhananjay";
+		
+		char[] c = s.toCharArray();
+			
+		System.out.println(Arrays.toString(c));
+	
+	}
+
+}

@@ -1,0 +1,34 @@
+package assignments_072_90;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Assignment_76 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		WAP to accept the values of your array at run time
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("enter array size");
+		int length = sc.nextInt();
+		
+		String[] str =new String[length];
+		
+		for(int i =0; i<length; i++) {
+			
+			System.out.print("enter a string value : ");
+			str[i] = sc.next();
+		     
+	
+		}		
+		System.out.println("\n"+Arrays.toString(str));
+		
+		sc.close();
+		
+		
+	}
+
+}

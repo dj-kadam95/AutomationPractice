@@ -1,0 +1,257 @@
+<html>
+<head>
+<title>TestNG:  parellel</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>parellel</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 06 05:38:47 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>33 seconds (33035 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='may_20.A04_timeout.brouwserLaunch()'><b>brouwserLaunch</b><br>Test class: may_20.A04_timeout</td>
+<td><div><pre>org.testng.internal.thread.ThreadTimeoutException: Method may_20.A04_timeout.brouwserLaunch() didn&apos;t finish within the time-out 1000
+	at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:416)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:99)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at may_20.A04_timeout.brouwserLaunch(A04_timeout.java:10)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace796175612", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace796175612'><pre>org.testng.internal.thread.ThreadTimeoutException: Method may_20.A04_timeout.brouwserLaunch() didn&apos;t finish within the time-out 1000
+	at java.base/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base/java.util.concurrent.locks.LockSupport.park(LockSupport.java:221)
+	at java.base/java.util.concurrent.CompletableFuture$Signaller.block(CompletableFuture.java:1864)
+	at java.base/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3780)
+	at java.base/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3725)
+	at java.base/java.util.concurrent.CompletableFuture.waitingGet(CompletableFuture.java:1898)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+	at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:416)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:89)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:557)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:174)
+	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:99)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:56)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:48)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:44)
+	at may_20.A04_timeout.brouwserLaunch(A04_timeout.java:10)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+	at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+	at org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+</pre></div></td>
+<td>1</td>
+<td>may_20.A04_timeout@247bddad</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='may_19.A03_testng_annotations.test()'><b>test</b><br>Test class: may_19.A03_testng_annotations</td>
+<td></td>
+<td>0</td>
+<td>may_19.A03_testng_annotations@8297b3a</td></tr>
+<tr>
+<td title='may_19.A02_login_practice.withValidCreds()'><b>withValidCreds</b><br>Test class: may_19.A02_login_practice</td>
+<td></td>
+<td>6</td>
+<td>may_19.A02_login_practice@24313fcc</td></tr>
+<tr>
+<td title='may_19.A01_first_program.login()'><b>login</b><br>Test class: may_19.A01_first_program</td>
+<td></td>
+<td>0</td>
+<td>may_19.A01_first_program@d35dea7</td></tr>
+<tr>
+<td title='may_20.A01_order_of_execution.login()'><b>login</b><br>Test class: may_20.A01_order_of_execution</td>
+<td></td>
+<td>0</td>
+<td>may_20.A01_order_of_execution@7d20d0b</td></tr>
+<tr>
+<td title='may_20.A03_invocationCount.logout()'><b>logout</b><br>Test class: may_20.A03_invocationCount</td>
+<td></td>
+<td>0</td>
+<td>may_20.A03_invocationCount@7770f470</td></tr>
+<tr>
+<td title='may_20.A02_priority.checkoutPage()'><b>checkoutPage</b><br>Test class: may_20.A02_priority</td>
+<td></td>
+<td>0</td>
+<td>may_20.A02_priority@544fa968</td></tr>
+<tr>
+<td title='may_19.A03_testng_annotations.test1()'><b>test1</b><br>Test class: may_19.A03_testng_annotations</td>
+<td></td>
+<td>0</td>
+<td>may_19.A03_testng_annotations@8297b3a</td></tr>
+<tr>
+<td title='may_20.A03_invocationCount.login()'><b>login</b><br>Test class: may_20.A03_invocationCount</td>
+<td></td>
+<td>0</td>
+<td>may_20.A03_invocationCount@7770f470</td></tr>
+<tr>
+<td title='may_20.A02_priority.signup()'><b>signup</b><br>Test class: may_20.A02_priority</td>
+<td></td>
+<td>0</td>
+<td>may_20.A02_priority@544fa968</td></tr>
+<tr>
+<td title='may_20.A05_parellel_crossBrowser_testing.EdgeLaunch()'><b>EdgeLaunch</b><br>Test class: may_20.A05_parellel_crossBrowser_testing</td>
+<td></td>
+<td>4</td>
+<td>may_20.A05_parellel_crossBrowser_testing@5e5d171f</td></tr>
+<tr>
+<td title='may_20.A02_priority.registration()'><b>registration</b><br>Test class: may_20.A02_priority</td>
+<td></td>
+<td>0</td>
+<td>may_20.A02_priority@544fa968</td></tr>
+<tr>
+<td title='may_20.A02_priority.slogin()'><b>slogin</b><br>Test class: may_20.A02_priority</td>
+<td></td>
+<td>0</td>
+<td>may_20.A02_priority@544fa968</td></tr>
+<tr>
+<td title='may_20.A01_order_of_execution.logout()'><b>logout</b><br>Test class: may_20.A01_order_of_execution</td>
+<td></td>
+<td>0</td>
+<td>may_20.A01_order_of_execution@7d20d0b</td></tr>
+<tr>
+<td title='may_20.A05_parellel_crossBrowser_testing.ChromeLaunch()'><b>ChromeLaunch</b><br>Test class: may_20.A05_parellel_crossBrowser_testing</td>
+<td></td>
+<td>6</td>
+<td>may_20.A05_parellel_crossBrowser_testing@5e5d171f</td></tr>
+<tr>
+<td title='may_20.A03_invocationCount.login()'><b>login</b><br>Test class: may_20.A03_invocationCount</td>
+<td></td>
+<td>0</td>
+<td>may_20.A03_invocationCount@7770f470</td></tr>
+<tr>
+<td title='may_20.A03_invocationCount.login()'><b>login</b><br>Test class: may_20.A03_invocationCount</td>
+<td></td>
+<td>0</td>
+<td>may_20.A03_invocationCount@7770f470</td></tr>
+<tr>
+<td title='may_20.A05_parellel_crossBrowser_testing.brouwserLaunch()'><b>brouwserLaunch</b><br>Test class: may_20.A05_parellel_crossBrowser_testing</td>
+<td></td>
+<td>13</td>
+<td>may_20.A05_parellel_crossBrowser_testing@5e5d171f</td></tr>
+<tr>
+<td title='may_20.A02_priority.addToCart()'><b>addToCart</b><br>Test class: may_20.A02_priority</td>
+<td></td>
+<td>0</td>
+<td>may_20.A02_priority@544fa968</td></tr>
+<tr>
+<td title='may_20.A02_priority.logout()'><b>logout</b><br>Test class: may_20.A02_priority</td>
+<td></td>
+<td>0</td>
+<td>may_20.A02_priority@544fa968</td></tr>
+<tr>
+<td title='may_20.A01_order_of_execution.registration()'><b>registration</b><br>Test class: may_20.A01_order_of_execution</td>
+<td></td>
+<td>0</td>
+<td>may_20.A01_order_of_execution@7d20d0b</td></tr>
+</table><p>
+</body>
+</html>

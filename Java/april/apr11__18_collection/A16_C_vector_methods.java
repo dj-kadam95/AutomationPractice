@@ -1,0 +1,34 @@
+package apr11__18_collection;
+
+import java.util.Enumeration;
+import java.util.Vector;
+
+public class A16_C_vector_methods {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		we dont need to upcasting a vector is a class not an interface,
+//		we do create object of vector class
+
+		Vector<Integer> v = new Vector<>(); // inherites List by defaults
+
+		v.addElement(23);
+		v.addElement(2);
+		v.addElement(55);
+		v.addElement(79);
+	//	v.addElement(null);
+		int a = v.firstElement();
+		//int b = v.lastElement();
+
+		System.out.println(a);
+		System.out.println(v.lastElement());
+		
+		Enumeration<Integer> e = v.elements();
+		while(e.hasMoreElements()) {
+			int b = e.nextElement();
+			System.out.println(b);
+		}
+	}
+
+}
