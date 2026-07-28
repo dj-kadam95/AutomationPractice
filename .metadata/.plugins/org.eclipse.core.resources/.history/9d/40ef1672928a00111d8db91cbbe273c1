@@ -27,7 +27,6 @@ public class ChildToParent {
 		search.sendKeys("Motorola");
 		search.sendKeys(Keys.ENTER);
 		System.out.println(driver.getTitle());
-		driver.quit();
 		
 	}
 
