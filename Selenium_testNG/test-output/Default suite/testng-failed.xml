@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="June_10.A02_fluent_wait">
+      <class name="may_29.A01_broken_links">
         <methods>
-          <include name="Search"/>
+          <include name="broken_links"/>
         </methods>
-      </class> <!-- June_10.A02_fluent_wait -->
+      </class> <!-- may_29.A01_broken_links -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
