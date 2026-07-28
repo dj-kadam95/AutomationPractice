@@ -38,7 +38,6 @@ INDEX VERSION 1.134+D:\Automation_practice\AutomationPractice\.metadata\.plugins
 2513252503.index
 3538232441.index
 1901984979.index
-2736318078.index
 1917045400.index
 2133362304.index
 44279532.index
