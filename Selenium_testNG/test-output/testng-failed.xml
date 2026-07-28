@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="may_27.A01_data_provider_two_assertions">
+      <class name="may_28.A02_retry_analyzer2">
         <methods>
-          <include name="login"/>
+          <include name="login" invocation-numbers="0 1"/>
         </methods>
-      </class> <!-- may_27.A01_data_provider_two_assertions -->
+      </class> <!-- may_28.A02_retry_analyzer2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
