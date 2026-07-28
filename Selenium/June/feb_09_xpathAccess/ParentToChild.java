@@ -41,7 +41,7 @@ public class ParentToChild {
         
         System.out.println(text);
         driver.findElement(By.xpath("//div[@class='ai-dropdown__options ng-tns-c3757420357-1']/child::button[2]")).click();
-      //  driver.quit();
+        driver.quit();
 	}
 
 }
