@@ -14,7 +14,7 @@ public class ParentToChild {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-
+		
 		Map<String, Object> prefs = new HashMap<>();
 		Map<String, Object> profile = new HashMap<>();
 		Map<String, Object> contentSettings = new HashMap<>();
@@ -29,6 +29,7 @@ public class ParentToChild {
 
 		// Launch Chrome with location allowed
 		EdgeDriver driver = new EdgeDriver(options);
+
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.manage().window().maximize();
 		driver.get("https://www.airindia.com/");

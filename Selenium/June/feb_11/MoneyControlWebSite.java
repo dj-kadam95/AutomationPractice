@@ -1,0 +1,25 @@
+package feb_11;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class MoneyControlWebSite {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		
+		EdgeDriver driver = new EdgeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().window().maximize();
+		driver.get("https://www.moneycontrol.com/");
+		Thread.sleep(10000);
+
+		//second top gainer
+		String gainer = driver.findElement(By.xpath("//a[text()='Top Gainers']/following::div[@class='PR in_tg_display_data']/child::div[@id='in_tgNifty']/descendant::tbody/tr[3]/td[1]")).getText();
+		System.out.println(gainer);                  
+		
+	}
+
+}

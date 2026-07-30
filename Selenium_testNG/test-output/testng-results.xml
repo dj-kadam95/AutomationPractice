@@ -8,12 +8,12 @@
       <![CDATA[passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2026-07-28T20:56:42 IST" name="Default suite" finished-at="2026-07-28T20:56:51 IST" duration-ms="8709">
+  <suite started-at="2026-07-28T21:03:30 IST" name="Default suite" finished-at="2026-07-28T21:03:37 IST" duration-ms="6893">
     <groups>
     </groups>
-    <test started-at="2026-07-28T20:56:42 IST" name="Default test" finished-at="2026-07-28T20:56:51 IST" duration-ms="8709">
+    <test started-at="2026-07-28T21:03:30 IST" name="Default test" finished-at="2026-07-28T21:03:37 IST" duration-ms="6893">
       <class name="may_28.A02_retry_analyzer2">
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:may_28.A02_retry_analyzer2@2a266d09]" started-at="2026-07-28T20:56:42 IST" name="login" data-provider="data" finished-at="2026-07-28T20:56:47 IST" duration-ms="4386" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:may_28.A02_retry_analyzer2@2a266d09]" started-at="2026-07-28T21:03:31 IST" name="login" data-provider="data" finished-at="2026-07-28T21:03:34 IST" duration-ms="3331" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:may_28.A02_retry_analyzer2@2a266d09]" started-at="2026-07-28T20:56:47 IST" name="login" data-provider="data" finished-at="2026-07-28T20:56:50 IST" duration-ms="3296" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:may_28.A02_retry_analyzer2@2a266d09]" started-at="2026-07-28T21:03:34 IST" name="login" data-provider="data" finished-at="2026-07-28T21:03:37 IST" duration-ms="2568" status="PASS">
           <params>
             <param index="0">
               <value>
