@@ -5,6 +5,7 @@
     <classes>
       <class name="may_30_testcases.C_May_30_loginPage">
         <methods>
+          <include name="tearDown"/>
           <include name="loginPage"/>
           <include name="launchApplication1"/>
         </methods>

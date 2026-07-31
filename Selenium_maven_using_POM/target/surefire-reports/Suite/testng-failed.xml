@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="may_30_testcases.E_June_4_add_to_cart">
+      <class name="may_30_testcases.C_May_30_loginPage">
         <methods>
-          <include name="addToCart"/>
           <include name="tearDown"/>
+          <include name="loginPage"/>
           <include name="launchApplication1"/>
         </methods>
-      </class> <!-- may_30_testcases.E_June_4_add_to_cart -->
+      </class> <!-- may_30_testcases.C_May_30_loginPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

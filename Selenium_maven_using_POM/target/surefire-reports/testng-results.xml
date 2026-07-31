@@ -2,34 +2,34 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-07-30T17:15:28 IST" name="Suite" finished-at="2026-07-30T17:15:44 IST" duration-ms="15814">
+  <suite started-at="2026-08-01T03:36:05 IST" name="Suite" finished-at="2026-08-01T03:36:16 IST" duration-ms="10856">
     <groups>
     </groups>
-    <test started-at="2026-07-30T17:15:28 IST" name="Test" finished-at="2026-07-30T17:15:44 IST" duration-ms="15814">
+    <test started-at="2026-08-01T03:36:05 IST" name="Test" finished-at="2026-08-01T03:36:16 IST" duration-ms="10856">
       <class name="may_30_testcases.C_May_30_loginPage">
-        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.C_May_30_loginPage@40ef3420]" started-at="2026-07-30T17:15:28 IST" name="launchApplication1" finished-at="2026-07-30T17:15:32 IST" duration-ms="3482" status="PASS">
+        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.C_May_30_loginPage@40ef3420]" started-at="2026-08-01T03:36:06 IST" name="launchApplication1" finished-at="2026-08-01T03:36:07 IST" duration-ms="1082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication1 -->
-        <test-method signature="loginPage()[pri:0, instance:may_30_testcases.C_May_30_loginPage@40ef3420]" started-at="2026-07-30T17:15:32 IST" name="loginPage" finished-at="2026-07-30T17:15:38 IST" duration-ms="6124" status="PASS">
+        <test-method signature="loginPage()[pri:0, instance:may_30_testcases.C_May_30_loginPage@40ef3420]" started-at="2026-08-01T03:36:07 IST" name="loginPage" finished-at="2026-08-01T03:36:10 IST" duration-ms="3556" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.C_May_30_loginPage@40ef3420]" started-at="2026-07-30T17:15:38 IST" name="tearDown" finished-at="2026-07-30T17:15:38 IST" duration-ms="343" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.C_May_30_loginPage@40ef3420]" started-at="2026-08-01T03:36:10 IST" name="tearDown" finished-at="2026-08-01T03:36:10 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- may_30_testcases.C_May_30_loginPage -->
       <class name="may_30_testcases.E_June_4_add_to_cart">
-        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4fb61f4a]" started-at="2026-07-30T17:15:38 IST" name="launchApplication1" finished-at="2026-07-30T17:15:39 IST" duration-ms="1109" status="PASS">
+        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4fb61f4a]" started-at="2026-08-01T03:36:10 IST" name="launchApplication1" finished-at="2026-08-01T03:36:11 IST" duration-ms="821" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication1 -->
-        <test-method signature="addToCart()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4fb61f4a]" started-at="2026-07-30T17:15:39 IST" name="addToCart" finished-at="2026-07-30T17:15:44 IST" duration-ms="4325" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4fb61f4a]" started-at="2026-08-01T03:36:11 IST" name="addToCart" finished-at="2026-08-01T03:36:16 IST" duration-ms="4740" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4fb61f4a]" started-at="2026-07-30T17:15:44 IST" name="tearDown" finished-at="2026-07-30T17:15:44 IST" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4fb61f4a]" started-at="2026-08-01T03:36:16 IST" name="tearDown" finished-at="2026-08-01T03:36:16 IST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
