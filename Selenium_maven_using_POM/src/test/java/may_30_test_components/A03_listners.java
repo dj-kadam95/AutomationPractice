@@ -14,7 +14,7 @@ import org.testng.Reporter;
 
 public class A03_listners extends B_May_30_base_test implements ITestListener {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -29,23 +29,12 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		ITestListener.super.onTestSuccess(result);
 		Reporter.log("passed");
 		
-		TakesScreenshot sc = (TakesScreenshot) driver;
-		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\success"+Math.random()+".png");
-	    try {
-			FileHandler.copy(src, dest);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		
-		
-		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		// TODO Auto-generated method stub
+		
 		ITestListener.super.onTestFailure(result);
 		Reporter.log("failed");
 		TakesScreenshot sc = (TakesScreenshot) driver;
