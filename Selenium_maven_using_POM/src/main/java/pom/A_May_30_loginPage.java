@@ -56,24 +56,6 @@ public class A_May_30_loginPage {
 	@FindBy(className="btn-w-10-rounded")
 	List<WebElement> button;
 	
-	public void prodSize() {
-		
-	System.out.println(	prods.size());
-		
-	}
-	
-	public void addToCart(String abc) throws InterruptedException {
-		for( int i =0; i<prods.size(); i++) {
-			
-			String ab = prods.get(i).getText();
-			
-			if(ab.contains(abc)) {
-				System.out.println(ab);
-				Thread.sleep(2000);
-				button.get(i).getText();
-				
-			}
-		}
-	}
+
 	
 }

@@ -44,15 +44,18 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="abc.abc"/>
 			<item value="Cucumber.Selenium_maven_using_POM"/>
 			<item value="Cucumber.Cucumber"/>
 			<item value="cucumber.cucumber"/>
 		</list>
 		<list key="groupId">
+			<item value="abc"/>
 			<item value="Cucumber"/>
 			<item value="cucumber"/>
 		</list>
 		<list key="artifactId">
+			<item value="abc"/>
 			<item value="Selenium_maven_using_POM"/>
 			<item value="Cucumber"/>
 			<item value="cucumber"/>
