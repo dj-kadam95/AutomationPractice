@@ -5,7 +5,6 @@ import java.io.IOException;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -14,7 +13,7 @@ import org.testng.Reporter;
 
 public class A03_listners extends B_May_30_base_test implements ITestListener {
 	
-	public static WebDriver driver;
+	//public static WebDriver driver;
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -28,7 +27,15 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		
 		ITestListener.super.onTestSuccess(result);
 		Reporter.log("passed");
-		
+		TakesScreenshot sc = (TakesScreenshot) driver;
+		File src =sc.getScreenshotAs(OutputType.FILE);
+		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\success"+Math.random()+".png");
+	    try {
+			FileHandler.copy(src, dest);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override

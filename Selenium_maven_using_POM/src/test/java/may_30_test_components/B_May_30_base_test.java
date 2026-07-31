@@ -48,19 +48,6 @@ public class B_May_30_base_test{
 	}
 
 
-	public void onTestSuccess(ITestResult result, WebDriver driver) {
-		// TODO Auto-generated method stub
-		this.driver=driver;
-		TakesScreenshot sc = (TakesScreenshot) driver;
-		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\success"+Math.random()+".png");
-	    try {
-			FileHandler.copy(src, dest);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
 
 	public void onTestFailure(ITestResult result, WebDriver driver) {
 		// TODO Auto-generated method stub
