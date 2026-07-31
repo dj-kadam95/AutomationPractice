@@ -2,23 +2,22 @@ package may_30_testcases;
 //import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-
 import may_30_test_components.B_May_30_base_test;
 import pom.A_May_30_loginPage;
 
 
 public class C_May_30_loginPage extends B_May_30_base_test{
 
-	@Test
+	@Test(retryAnalyzer = may_30_test_components.A02_retry_logic.class)
 	public void loginPage() throws InterruptedException {
 		
 		String Expected1 = "Login Successfully";
-		String Expected2 = "Incorrect email or password.";
+		String Expected2 = "Incorrect email or passwor.";
 		String Expected3 = "Logout Successfully";
 		
 		A_May_30_loginPage LP = url.login();
 		
-		LP.login("dkdhananjay77@gmail.com", "Shubh@15061995");
+		LP.login("dkdhananjay77@gmail.com", "Shubh@1561995");
 		System.out.println(driver.getTitle());
 		Thread.sleep(1000);
 

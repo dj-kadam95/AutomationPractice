@@ -8,6 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import pom.A_May_30_loginPage;
 import pom.D_June_02_add_to_cart;
 
+
 public class F_goToUrls {
 	
 	WebDriver driver;

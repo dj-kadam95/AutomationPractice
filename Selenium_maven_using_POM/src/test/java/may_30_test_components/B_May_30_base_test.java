@@ -9,7 +9,7 @@ import org.testng.annotations.BeforeMethod;
 
 import abstract_components.F_goToUrls;
 
-public class B_May_30_base_test{
+public class B_May_30_base_test {
 
 	public WebDriver driver;
 
