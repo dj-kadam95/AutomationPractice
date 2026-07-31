@@ -9,7 +9,6 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.io.FileHandler;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -49,19 +48,16 @@ public class B_May_30_base_test{
 
 
 
-	public void onTestFailure(ITestResult result, WebDriver driver) {
+	public String getScreenShot(String testCaseName, WebDriver driver) throws IOException {
 		// TODO Auto-generated method stub
-		this.driver=driver;
 		TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\failed"+Math.random()+".png");
-		try {
+		File dest = new File(System.getProperty("user.dir")+"//reports//"+testCaseName+".png");
+
 			FileHandler.copy(src, dest);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		return System.getProperty("user.dir")+"//reports//"+testCaseName+".png";
+			
 		}
 	}
 
-}
 	

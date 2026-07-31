@@ -1,18 +1,14 @@
 package may_30_test_components;
-
-import java.io.File;
 import java.io.IOException;
 
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.io.FileHandler;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 
 public class A03_listners extends B_May_30_base_test implements ITestListener {
-
+	
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub
@@ -25,11 +21,11 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		
 		ITestListener.super.onTestSuccess(result);
 		Reporter.log("passed");
-		TakesScreenshot sc = (TakesScreenshot) driver;
-		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\success"+Math.random()+".png");
-	    try {
-			FileHandler.copy(src, dest);
+		String filepath =null;
+		try {
+			filepath = getScreenShot(result.getMethod().getMethodName(), driver);
+			Reporter.log(filepath+"failed");
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -41,12 +37,12 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		// TODO Auto-generated method stub
 		
 		ITestListener.super.onTestFailure(result);
-		Reporter.log("failed");
-		TakesScreenshot sc = (TakesScreenshot) driver;
-		File src =sc.getScreenshotAs(OutputType.FILE);
-		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\failed"+Math.random()+".png");
+		 
+		String filepath =null;
 		try {
-			FileHandler.copy(src, dest);
+			filepath = getScreenShot(result.getMethod().getMethodName(), driver);
+			Reporter.log(filepath+"failed");
+			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
