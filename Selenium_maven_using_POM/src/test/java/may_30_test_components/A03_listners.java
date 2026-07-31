@@ -12,8 +12,6 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 
 public class A03_listners extends B_May_30_base_test implements ITestListener {
-	
-	public  B_May_30_base_test driver;
 
 	@Override
 	public void onTestStart(ITestResult result) {
