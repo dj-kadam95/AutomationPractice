@@ -13,7 +13,7 @@ import org.testng.Reporter;
 
 public class A03_listners extends B_May_30_base_test implements ITestListener {
 	
-	//public static WebDriver driver;
+	public  B_May_30_base_test driver;
 
 	@Override
 	public void onTestStart(ITestResult result) {
@@ -27,7 +27,6 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		
 		ITestListener.super.onTestSuccess(result);
 		Reporter.log("passed");
-		driver = initDriver();
 		TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =sc.getScreenshotAs(OutputType.FILE);
 		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\success"+Math.random()+".png");
@@ -45,7 +44,6 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		
 		ITestListener.super.onTestFailure(result);
 		Reporter.log("failed");
-		driver = initDriver();
 		TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =sc.getScreenshotAs(OutputType.FILE);
 		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\failed"+Math.random()+".png");

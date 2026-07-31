@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="9.754" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.689" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\Dnyaneshwar\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.11.v20260515-1531\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Dnyaneshwar\AppData\Local\Temp\surefire7038279185145523316\surefirebooter-20260801042858799_3.jar C:\Users\Dnyaneshwar\AppData\Local\Temp\surefire7038279185145523316 2026-08-01T04-28-58_690-jvmRun1 surefire-20260801042858799_1tmp surefire_0-20260801042858799_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Dnyaneshwar\AppData\Local\Temp\surefire2022790324988347434\surefirebooter-20260801043630686_3.jar C:\Users\Dnyaneshwar\AppData\Local\Temp\surefire2022790324988347434 2026-08-01T04-36-30_578-jvmRun1 surefire-20260801043630686_1tmp surefire_0-20260801043630686_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\Automation_practice\AutomationPractice\Selenium_maven_using_POM\target\test-classes;D:\Automation_practice\AutomationPractice\Selenium_maven_using_POM\target\classes;C:\Users\Dnyaneshwar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Dnyaneshwar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Dnyaneshwar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.32.0\selenium-java-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.32.0\selenium-api-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.32.0\selenium-chrome-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.32.0\selenium-chromium-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.32.0\selenium-json-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.32.0\selenium-manager-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v134\4.32.0\selenium-devtools-v134-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.32.0\selenium-devtools-v135-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.32.0\selenium-devtools-v136-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.32.0\selenium-edge-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.32.0\selenium-firefox-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.32.0\selenium-http-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.32.0\selenium-ie-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.32.0\selenium-remote-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Dnyaneshwar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Dnyaneshwar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Dnyaneshwar\.m2\repository\com\google\errorprone\error_prone_annotations\2.36.0\error_prone_annotations-2.36.0.jar;C:\Users\Dnyaneshwar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-api\1.49.0\opentelemetry-api-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-context\1.49.0\opentelemetry-context-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.49.0\opentelemetry-exporter-logging-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.49.0\opentelemetry-sdk-common-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.49.0\opentelemetry-sdk-extension-autoconfigure-spi-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.49.0\opentelemetry-sdk-extension-autoconfigure-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.49.0\opentelemetry-sdk-trace-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.49.0\opentelemetry-sdk-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.49.0\opentelemetry-sdk-metrics-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.49.0\opentelemetry-sdk-logs-1.49.0.jar;C:\Users\Dnyaneshwar\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.32.0\selenium-os-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.32.0\selenium-safari-driver-4.32.0.jar;C:\Users\Dnyaneshwar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.32.0\selenium-support-4.32.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Dnyaneshwar\AppData\Local\Temp\surefire7038279185145523316\surefirebooter-20260801042858799_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Dnyaneshwar\AppData\Local\Temp\surefire2022790324988347434\surefirebooter-20260801043630686_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.11+10-LTS"/>
@@ -60,7 +60,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="loginPage" classname="may_30_testcases.C_May_30_loginPage" time="1.913">
+  <testcase name="loginPage" classname="may_30_testcases.C_May_30_loginPage" time="4.472">
     <system-out><![CDATA[Let's Shop
 Incorrect email or password.
 Incorrect email or password.
@@ -68,20 +68,28 @@ Incorrect email or password.
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Aug 01, 2026 4:29:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Aug 01, 2026 4:36:32 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 151
-Aug 01, 2026 4:29:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Aug 01, 2026 4:36:32 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 151.0.7922.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 01, 2026 4:36:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 151
+Aug 01, 2026 4:36:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 151.0.7922.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="addToCart" classname="may_30_testcases.E_June_4_add_to_cart" time="4.603">
+  <testcase name="addToCart" classname="may_30_testcases.E_June_4_add_to_cart" time="5.795">
     <system-out><![CDATA[Potato - 1 Kgcb
 Pomegranate - 1 Kgcb
 countcb 2
 ]]></system-out>
-    <system-err><![CDATA[Aug 01, 2026 4:29:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Aug 01, 2026 4:36:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 151
-Aug 01, 2026 4:29:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Aug 01, 2026 4:36:38 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 151.0.7922.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 01, 2026 4:36:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 151
+Aug 01, 2026 4:36:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 151.0.7922.71. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.32.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
