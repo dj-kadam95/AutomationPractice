@@ -48,7 +48,7 @@ public class B_May_30_base_test{
 
 	public String getScreenShot(String testCaseName, WebDriver driver) throws IOException {
 		// TODO Auto-generated method stub
-		this.driver=driver;
+		driver=this.driver;
 		//TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File(System.getProperty("user.dir")+"//reports//"+testCaseName+".png");
