@@ -14,7 +14,7 @@ public class C_May_30_loginPage extends B_May_30_base_test{
 	public void loginPage() throws InterruptedException {
 		
 		String Expected1 = "Login Successfully";
-		String Expected2 = "Incorrect email or password.";
+		String Expected2 = "Incorrect email or passwor.";
 		String Expected3 = "Logout Successfully";
 		
 		A_May_30_loginPage LP = url.login();

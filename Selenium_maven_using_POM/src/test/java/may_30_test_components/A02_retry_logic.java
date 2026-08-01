@@ -7,7 +7,7 @@ public class A02_retry_logic extends B_May_30_base_test  implements IRetryAnalyz
 	
 
 	int initialCount =0;
-	int retryCount =2;
+	int retryCount =0;
 	@Override
 	public boolean retry(ITestResult result) {
 		
