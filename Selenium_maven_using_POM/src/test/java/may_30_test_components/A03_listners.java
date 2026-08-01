@@ -20,11 +20,10 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		// TODO Auto-generated method stub
 		
 		ITestListener.super.onTestSuccess(result);
-		Reporter.log("passed");
-		String filepath =null;
+		Reporter.log("passed............");
+		
 		try {
-			filepath = getScreenShot(result.getMethod().getMethodName());
-			Reporter.log(filepath+"failed");
+			getScreenShot(result.getMethod().getMethodName(),"Passed");
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -37,11 +36,11 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		// TODO Auto-generated method stub
 		
 		ITestListener.super.onTestFailure(result);
+		Reporter.log(result+"failed................");
 		 
-		String filepath =null;
+		
 		try {
-			filepath = getScreenShot(result.getMethod().getMethodName());
-			Reporter.log(filepath+"failed");
+			getScreenShot(result.getMethod().getMethodName(), "Failed");
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block

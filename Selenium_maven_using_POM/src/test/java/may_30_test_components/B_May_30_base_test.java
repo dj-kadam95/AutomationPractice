@@ -46,15 +46,14 @@ public class B_May_30_base_test{
 
 
 
-	public String getScreenShot(String testCaseName) throws IOException {
+	public void getScreenShot(String testCaseName, String result) throws IOException {
 		// TODO Auto-generated method stub
 		
 		//TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-		File dest = new File(System.getProperty("user.dir")+"//reports//"+testCaseName+".png");
+		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\"+testCaseName+" "+result+Math.random()+".png");
 
 			FileHandler.copy(src, dest);
-		return System.getProperty("user.dir")+"//reports//"+testCaseName+".png";
 			
 		}
 	}

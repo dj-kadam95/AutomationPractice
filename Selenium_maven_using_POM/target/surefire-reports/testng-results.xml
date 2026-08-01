@@ -5,43 +5,55 @@
       <![CDATA[passed]]>
     </line>
     <line>
+      <![CDATA[D:\Automation_practice\AutomationPractice\Selenium_maven_using_POM//reports//loginPage.pngfailed]]>
+    </line>
+    <line>
       <![CDATA[passed]]>
     </line>
+    <line>
+      <![CDATA[D:\Automation_practice\AutomationPractice\Selenium_maven_using_POM//reports//addToCart.pngfailed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2026-08-01T04:36:31 IST" name="Suite" finished-at="2026-08-01T04:36:44 IST" duration-ms="13269">
+  <suite started-at="2026-08-01T05:53:04 IST" name="Suite" finished-at="2026-08-01T05:53:15 IST" duration-ms="11094">
     <groups>
     </groups>
-    <test started-at="2026-08-01T04:36:31 IST" name="Test" finished-at="2026-08-01T04:36:44 IST" duration-ms="13269">
+    <test started-at="2026-08-01T05:53:04 IST" name="Test" finished-at="2026-08-01T05:53:15 IST" duration-ms="11094">
       <class name="may_30_testcases.C_May_30_loginPage">
-        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.C_May_30_loginPage@795cd85e]" started-at="2026-08-01T04:36:31 IST" name="launchApplication1" finished-at="2026-08-01T04:36:32 IST" duration-ms="1230" status="PASS">
+        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.C_May_30_loginPage@f5ac9e4]" started-at="2026-08-01T05:53:04 IST" name="launchApplication1" finished-at="2026-08-01T05:53:05 IST" duration-ms="1288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication1 -->
-        <test-method signature="loginPage()[pri:0, instance:may_30_testcases.C_May_30_loginPage@795cd85e]" started-at="2026-08-01T04:36:32 IST" name="loginPage" finished-at="2026-08-01T04:36:35 IST" duration-ms="3234" status="PASS">
+        <test-method signature="loginPage()[pri:0, instance:may_30_testcases.C_May_30_loginPage@f5ac9e4]" started-at="2026-08-01T05:53:05 IST" name="loginPage" finished-at="2026-08-01T05:53:08 IST" duration-ms="3090" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[passed]]>
             </line>
+            <line>
+              <![CDATA[D:\Automation_practice\AutomationPractice\Selenium_maven_using_POM//reports//loginPage.pngfailed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.C_May_30_loginPage@795cd85e]" started-at="2026-08-01T04:36:37 IST" name="tearDown" finished-at="2026-08-01T04:36:37 IST" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.C_May_30_loginPage@f5ac9e4]" started-at="2026-08-01T05:53:08 IST" name="tearDown" finished-at="2026-08-01T05:53:09 IST" duration-ms="537" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- may_30_testcases.C_May_30_loginPage -->
       <class name="may_30_testcases.E_June_4_add_to_cart">
-        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4a94ee4]" started-at="2026-08-01T04:36:37 IST" name="launchApplication1" finished-at="2026-08-01T04:36:38 IST" duration-ms="976" status="PASS">
+        <test-method is-config="true" signature="launchApplication1()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@6379eb]" started-at="2026-08-01T05:53:09 IST" name="launchApplication1" finished-at="2026-08-01T05:53:10 IST" duration-ms="853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication1 -->
-        <test-method signature="addToCart()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4a94ee4]" started-at="2026-08-01T04:36:38 IST" name="addToCart" finished-at="2026-08-01T04:36:42 IST" duration-ms="4557" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@6379eb]" started-at="2026-08-01T05:53:10 IST" name="addToCart" finished-at="2026-08-01T05:53:14 IST" duration-ms="4362" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[passed]]>
             </line>
+            <line>
+              <![CDATA[D:\Automation_practice\AutomationPractice\Selenium_maven_using_POM//reports//addToCart.pngfailed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@4a94ee4]" started-at="2026-08-01T04:36:44 IST" name="tearDown" finished-at="2026-08-01T04:36:44 IST" duration-ms="390" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:may_30_testcases.E_June_4_add_to_cart@6379eb]" started-at="2026-08-01T05:53:14 IST" name="tearDown" finished-at="2026-08-01T05:53:15 IST" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
