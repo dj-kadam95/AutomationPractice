@@ -23,7 +23,7 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		Reporter.log("passed");
 		String filepath =null;
 		try {
-			filepath = getScreenShot(result.getMethod().getMethodName(), driver);
+			filepath = getScreenShot(result.getMethod().getMethodName());
 			Reporter.log(filepath+"failed");
 			
 		} catch (IOException e) {
@@ -40,7 +40,7 @@ public class A03_listners extends B_May_30_base_test implements ITestListener {
 		 
 		String filepath =null;
 		try {
-			filepath = getScreenShot(result.getMethod().getMethodName(), driver);
+			filepath = getScreenShot(result.getMethod().getMethodName());
 			Reporter.log(filepath+"failed");
 			
 		} catch (IOException e) {

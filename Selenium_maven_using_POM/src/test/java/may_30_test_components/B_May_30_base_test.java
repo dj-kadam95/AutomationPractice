@@ -46,7 +46,7 @@ public class B_May_30_base_test{
 
 
 
-	public String getScreenShot(String testCaseName, WebDriver driver) throws IOException {
+	public String getScreenShot(String testCaseName) throws IOException {
 		// TODO Auto-generated method stub
 		
 		//TakesScreenshot sc = (TakesScreenshot) driver;
