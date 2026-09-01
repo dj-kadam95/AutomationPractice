@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="assignments_37_t0_52.Assignment_47"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
     <fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.WorkbookFactory"/>
     <fullyQualifiedTypeName name="java.util.List"/>
@@ -21,4 +20,5 @@
     <fullyQualifiedTypeName name="graphql.Assert"/>
     <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="may_30_test_components.A02_retry_logic"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
 </qualifiedTypeNameHistroy>
