@@ -1,111 +1,69 @@
-93:41:57 Microsoft.Shutdown.TabStripModel.CloseTabs
-93:41:57 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-93:41:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-93:41:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-93:41:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-93:41:57 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-93:41:57 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-93:41:57 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-93:41:57 Tab99 RenderProcessGone
-93:41:57 Microsoft.UnloadController.ClearUnloadState
-93:41:57 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-93:41:57 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-93:41:57 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-93:41:57 Browser99 Close Tab99 at 0
-93:41:57 Microsoft.UnloadController.ClearUnloadState
-93:41:57 Tab99 WebContentsDestroyed
-93:41:57 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-93:41:57 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-93:41:57 Microsoft.Shutdown.OnWindowClosing
-93:41:57 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-93:41:57 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-93:41:57 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
-93:41:57 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
-93:41:57 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-93:41:57 Widget Closed: BrowserWidget
-93:41:57 Microsoft.UnloadController.TabStripEmpty
-93:41:57 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-93:41:57 Microsoft.Shutdown.OnWindowClosing
-93:41:57 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-93:41:57 Microsoft.Browser_Removed
-93:44:02 Microsoft.NewBrowser_Popup
-93:44:02 Microsoft.BrowserList.AddBrowser
-93:44:02 Browser102 Insert active Tab102 at 0
-93:44:02 Tab102 StartNav1455 #auto_toplevel
-93:44:02 Tab102 StartNav1456 #typed
-93:44:02 Tab102 FinishNav1456 ERR_ABORTED
-93:44:02 Tab102 StartNav1457 #typed
-93:44:02 Tab102 FinishNav1455
-93:44:02 Tab102 PageLoad
-93:44:02 Tab102 FinishNav1457
-93:44:02 Tab102 PageLoad
-93:44:06 Tab102 StartNav1458 #typed
-93:44:06 Tab102 FinishNav1458 ERR_ABORTED
-93:44:06 Tab102 StartNav1459 #typed
-93:44:07 Tab102 FinishNav1459
-93:44:07 Tab102 PageLoad
-93:44:08 Tab102 StartNav1460 #typed
-93:44:08 Tab102 FinishNav1460
-93:44:08 Tab102 PageLoad
-93:44:09 Tab102 StartNav1461 #typed
-93:44:09 Tab102 FinishNav1461
-93:44:09 Tab102 PageLoad
-93:44:16 Tab94 StartNav1462 #typed
-93:44:16 Tab94 FinishNav1462
-93:44:16 Tab94 PageLoad
-93:44:26 Tab102 StartNav1463 #typed
-93:44:26 Tab102 FinishNav1463
-93:44:26 Tab102 PageLoad
-93:44:49 Tab94 StartNav1464 #typed
-93:44:49 Tab94 FinishNav1464 ERR_ABORTED
-93:44:49 Tab94 StartNav1465 #typed
-93:44:49 Tab94 FinishNav1465
-93:44:49 Tab94 PageLoad
-93:44:54 Tab94 StartNav1466 #typed
-93:44:54 Tab94 FinishNav1466 ERR_ABORTED
-93:44:54 Tab94 StartNav1467 #typed
-93:44:54 Tab94 FinishNav1467
-93:44:54 Tab94 PageLoad
-93:44:55 Tab94 StartNav1468 #typed
-93:44:55 Tab94 FinishNav1468 ERR_ABORTED
-93:44:55 Tab94 StartNav1469 #typed
-93:44:55 Tab94 FinishNav1469
-93:44:55 Tab94 PageLoad
-93:44:56 Tab94 StartNav1470 #typed
-93:44:56 Tab94 FinishNav1470
-93:44:56 Tab94 PageLoad
-93:44:58 Tab94 StartNav1471 #typed
-93:44:58 Tab94 FinishNav1471
-93:44:58 Tab94 PageLoad
-93:45:06 Tab102 StartNav1472 #typed
-93:45:06 Tab102 FinishNav1472
-93:45:06 Tab102 PageLoad
-93:45:16 Tab102 StartNav1473 #typed
-93:45:16 Tab102 FinishNav1473
-93:45:16 Tab102 PageLoad
-93:45:18 Tab102 StartNav1474 #typed
-93:45:18 Tab102 FinishNav1474
-93:45:18 Tab102 PageLoad
-93:45:19 Tab102 StartNav1475 #typed
-93:45:19 Tab102 FinishNav1475
-93:45:19 Tab102 PageLoad
-93:45:19 Tab102 StartNav1476 #typed
-93:45:19 Tab102 FinishNav1476 ERR_ABORTED
-93:45:19 Tab102 StartNav1477 #typed
-93:45:19 Tab102 FinishNav1477
-93:45:19 Tab102 PageLoad
-93:45:26 Tab94 StartNav1478 #typed
-93:45:26 Tab94 FinishNav1478
-93:45:26 Tab94 PageLoad
-93:45:29 Tab94 StartNav1479 #typed
-93:45:29 Tab94 FinishNav1479
-93:45:29 Tab94 PageLoad
-93:46:12 Tab102 StartNav1480 #typed
-93:46:12 Tab102 FinishNav1480
-93:46:12 Tab102 PageLoad
-93:46:15 Tab102 StartNav1481 #typed
-93:46:15 Tab102 FinishNav1481
-93:46:15 Tab102 PageLoad
-93:46:20 Tab102 StartNav1482 #typed
-93:46:20 Tab102 FinishNav1482
-93:46:20 Tab102 PageLoad
+93:47:24 Tab103 FinishNav1490
+93:47:24 Tab103 PageLoad
+93:47:25 Tab103 StartNav1491 #typed
+93:47:25 Tab103 FinishNav1491
+93:47:25 Tab103 PageLoad
+93:47:30 Tab103 StartNav1492 #typed
+93:47:30 Tab103 FinishNav1492 ERR_ABORTED
+93:47:30 Tab103 StartNav1493 #typed
+93:47:30 Tab103 FinishNav1493
+93:47:30 Tab103 PageLoad
+93:47:49 Tab103 StartNav1494 #typed
+93:47:49 Tab103 FinishNav1494
+93:47:49 Tab103 PageLoad
+93:47:57 Tab100 StartNav1495 #typed
+93:47:57 Tab100 FinishNav1495 ERR_ABORTED
+93:47:57 Tab100 StartNav1496 #typed
+93:47:57 Tab100 FinishNav1496
+93:47:57 Tab100 PageLoad
+93:48:01 Tab100 StartNav1497 #typed
+93:48:01 Tab100 FinishNav1497
+93:48:01 Tab100 PageLoad
+93:48:25 Tab100 StartNav1498 #typed
+93:48:25 Tab100 FinishNav1498 ERR_ABORTED
+93:48:25 Tab100 StartNav1499 #typed
+93:48:25 Tab100 FinishNav1499
+93:48:25 Tab100 PageLoad
+93:48:28 Tab100 StartNav1500 #typed
+93:48:28 Tab100 FinishNav1500
+93:48:28 Tab100 PageLoad
+93:48:29 Tab100 StartNav1501 #typed
+93:48:29 Tab100 FinishNav1501 ERR_ABORTED
+93:48:29 Tab100 StartNav1502 #typed
+93:48:29 Tab100 FinishNav1502
+93:48:29 Tab100 PageLoad
+93:48:30 Tab100 StartNav1503 #typed
+93:48:30 Tab100 FinishNav1503
+93:48:30 Tab100 PageLoad
+93:48:41 Tab100 StartNav1504 #typed
+93:48:41 Tab100 FinishNav1504
+93:48:41 Tab100 PageLoad
+93:48:43 Tab100 StartNav1505 #typed
+93:48:43 Tab100 FinishNav1505
+93:48:43 Tab100 PageLoad
+93:48:47 Tab102 StartNav1506 #typed
+93:48:47 Tab102 FinishNav1506
+93:48:47 Tab102 PageLoad
+93:49:00 Tab102 StartNav1507 #typed
+93:49:00 Tab102 FinishNav1507
+93:49:00 Tab102 PageLoad
+93:49:08 Tab102 StartNav1508 #typed
+93:49:08 Tab102 FinishNav1508 ERR_ABORTED
+93:49:08 Tab102 StartNav1509 #typed
+93:49:08 Tab102 FinishNav1509
+93:49:08 Tab102 PageLoad
+93:49:12 Tab102 StartNav1510 #typed
+93:49:12 Tab102 FinishNav1510
+93:49:12 Tab102 PageLoad
+93:49:13 Tab102 StartNav1511 #typed
+93:49:13 Tab102 FinishNav1511
+93:49:13 Tab102 PageLoad
+93:49:22 Tab102 StartNav1512 #typed
+93:49:22 Tab102 FinishNav1512
+93:49:22 Tab102 PageLoad
+93:49:23 Tab102 StartNav1513 #typed
+93:49:23 Tab102 FinishNav1513
+93:49:23 Tab102 PageLoad
+93:51:04 Tab102 StartNav1514 #typed
+93:51:04 Tab102 FinishNav1514
+93:51:04 Tab102 PageLoad
