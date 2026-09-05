@@ -2,12 +2,14 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="medicart_project"/>
 			<item value="Selenium_assignments"/>
 			<item value="Selenium"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="medicart_project"/>
 			<item value="Selenium_assignments"/>
 			<item value="Selenium"/>
 		</list>
@@ -44,6 +46,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="abc.medicart_project"/>
+			<item value="abc.Project_one_medicart_e_commerce"/>
 			<item value="abc.abc"/>
 			<item value="Cucumber.Selenium_maven_using_POM"/>
 			<item value="Cucumber.Cucumber"/>
@@ -55,6 +59,8 @@
 			<item value="cucumber"/>
 		</list>
 		<list key="artifactId">
+			<item value="medicart_project"/>
+			<item value="Project_one_medicart_e_commerce"/>
 			<item value="abc"/>
 			<item value="Selenium_maven_using_POM"/>
 			<item value="Cucumber"/>

@@ -1,3 +1,2 @@
-2026/09/01-23:36:28.895 3a94 Reusing MANIFEST D:\Automation_practice\AutomationPractice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
-2026/09/01-23:36:28.897 3a94 Recovering log #3
-2026/09/01-23:36:28.898 3a94 Reusing old log D:\Automation_practice\AutomationPractice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/000003.log 
+2026/09/05-22:45:01.979 384 Creating DB D:\Automation_practice\AutomationPractice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage since it was missing.
+2026/09/05-22:45:02.003 384 Reusing MANIFEST D:\Automation_practice\AutomationPractice\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Session Storage/MANIFEST-000001
