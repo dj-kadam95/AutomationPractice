@@ -1,0 +1,3 @@
+# Created at 2026-09-05T20:35:41.135
+Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "this.driver" is null
+

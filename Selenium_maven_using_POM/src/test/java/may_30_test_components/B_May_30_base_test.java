@@ -52,8 +52,7 @@ public class B_May_30_base_test{
 		//TakesScreenshot sc = (TakesScreenshot) driver;
 		File src =((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		File dest = new File("C:\\Users\\Dnyaneshwar\\OneDrive\\Pictures\\Camera Roll\\"+testCaseName+" "+result+Math.random()+".png");
-
-			FileHandler.copy(src, dest);
+		FileHandler.copy(src, dest);
 			
 		}
 	}

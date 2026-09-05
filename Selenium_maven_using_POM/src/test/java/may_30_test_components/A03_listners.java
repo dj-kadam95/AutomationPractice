@@ -1,7 +1,7 @@
 package may_30_test_components;
 import java.io.IOException;
 
-
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -9,6 +9,7 @@ import org.testng.Reporter;
 
 public class A03_listners extends B_May_30_base_test implements ITestListener {
 	
+	public WebDriver driver;
 	@Override
 	public void onTestStart(ITestResult result) {
 		// TODO Auto-generated method stub

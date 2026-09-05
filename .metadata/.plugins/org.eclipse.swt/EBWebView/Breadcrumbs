@@ -1,95 +1,101 @@
-92:26:09 Microsoft.Shutdown.OnWindowClosing
-92:26:09 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-92:26:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-92:26:09 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
-92:26:09 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
-92:26:09 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-92:26:09 Widget Closed: BrowserWidget
-92:26:09 Microsoft.UnloadController.TabStripEmpty
-92:26:09 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-92:26:09 Microsoft.Shutdown.OnWindowClosing
-92:26:09 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-92:26:09 Microsoft.Browser_Removed
-92:26:21 Tab82 StartNav1157 #typed
-92:26:21 Tab82 FinishNav1157
-92:26:21 Tab82 PageLoad
-92:26:21 Tab82 StartNav1158 #typed
-92:26:21 Tab82 FinishNav1158
-92:26:21 Tab82 PageLoad
-92:26:23 Tab82 StartNav1159 #typed
-92:26:23 Tab82 FinishNav1159
-92:26:23 Tab82 PageLoad
-92:26:23 Tab82 StartNav1160 #typed
-92:26:23 Tab82 FinishNav1160
-92:26:23 Tab82 PageLoad
-92:26:27 Tab82 StartNav1161 #typed
-92:26:27 Tab82 FinishNav1161
-92:26:27 Tab82 PageLoad
-92:26:29 Tab82 StartNav1162 #typed
-92:26:29 Tab82 FinishNav1162
-92:26:29 Tab82 PageLoad
-92:26:30 Tab82 StartNav1163 #typed
-92:26:30 Tab82 FinishNav1163
-92:26:30 Tab82 PageLoad
-92:26:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-92:26:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_False
-92:26:36 Microsoft.Shutdown.OnWindowClosing
-92:26:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-92:26:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-92:26:36 Microsoft.Shutdown.TabStripModel.CloseAllTabs
-92:26:36 Microsoft.Shutdown.TabStripModel.CloseTabs
-92:26:36 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
-92:26:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
-92:26:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
-92:26:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
-92:26:36 Microsoft.Shutdown.TabStripModel.CloseWebContentses
-92:26:36 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
-92:26:36 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
-92:26:36 Tab82 RenderProcessGone
-92:26:36 Microsoft.UnloadController.ClearUnloadState
-92:26:36 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
-92:26:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
-92:26:36 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
-92:26:36 Browser82 Close Tab82 at 0
-92:26:36 Microsoft.UnloadController.ClearUnloadState
-92:26:36 Tab82 WebContentsDestroyed
-92:26:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-92:26:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-92:26:36 Microsoft.Shutdown.OnWindowClosing
-92:26:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
-92:26:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-92:26:36 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
-92:26:36 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
-92:26:36 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
-92:26:36 Widget Closed: BrowserWidget
-92:26:36 Microsoft.UnloadController.TabStripEmpty
-92:26:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
-92:26:36 Microsoft.Shutdown.OnWindowClosing
-92:26:36 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-92:26:36 Microsoft.Browser_Removed
-92:26:55 Microsoft.NewBrowser_Popup
-92:26:55 Microsoft.BrowserList.AddBrowser
-92:26:55 Browser87 Insert active Tab87 at 0
-92:26:55 Tab87 StartNav1164 #auto_toplevel
-92:26:55 Tab87 StartNav1165 #typed
-92:26:56 Tab87 FinishNav1164
-92:26:56 Tab87 PageLoad
-92:26:56 Tab87 FinishNav1165
-92:26:56 Tab87 PageLoad
-92:26:56 Tab87 StartNav1166 #typed
-92:26:56 Tab87 FinishNav1166
-92:26:56 Tab87 PageLoad
-92:26:57 Memory Pressure: Moderate
-92:27:02 Memory Pressure: None
-92:27:30 Tab87 StartNav1167 #typed
-92:27:30 Tab87 FinishNav1167
-92:27:30 Tab87 PageLoad
-92:27:35 Tab87 StartNav1168 #typed
-92:27:35 Tab87 FinishNav1168
-92:27:35 Tab87 PageLoad
-92:31:23 Tab87 StartNav1169 #typed
-92:31:23 Tab87 FinishNav1169
-92:31:23 Tab87 PageLoad
-92:31:34 Tab87 StartNav1170 #typed
-92:31:34 Tab87 FinishNav1170
-92:31:34 Tab87 PageLoad
+93:18:56 Tab99 PageLoad
+93:18:57 Tab99 StartNav1317 #typed
+93:18:57 Tab99 FinishNav1317
+93:18:57 Tab99 PageLoad
+93:18:59 Tab99 StartNav1318 #typed
+93:18:59 Tab99 FinishNav1318
+93:18:59 Tab99 PageLoad
+93:19:10 Tab99 StartNav1319 #typed
+93:19:10 Tab99 FinishNav1319
+93:19:10 Tab99 PageLoad
+93:19:15 Tab94 StartNav1320 #typed
+93:19:15 Tab94 FinishNav1320
+93:19:15 Tab94 PageLoad
+93:19:25 Tab99 StartNav1321 #typed
+93:19:25 Tab99 FinishNav1321
+93:19:25 Tab99 PageLoad
+93:19:26 Tab99 StartNav1322 #typed
+93:19:26 Tab99 FinishNav1322
+93:19:26 Tab99 PageLoad
+93:19:30 Tab99 StartNav1323 #typed
+93:19:30 Tab99 FinishNav1323 ERR_ABORTED
+93:19:30 Tab99 StartNav1324 #typed
+93:19:30 Tab99 FinishNav1324
+93:19:30 Tab99 PageLoad
+93:19:35 Tab99 StartNav1325 #typed
+93:19:35 Tab99 FinishNav1325
+93:19:35 Tab99 PageLoad
+93:19:36 Tab99 StartNav1326 #typed
+93:19:36 Tab99 FinishNav1326
+93:19:36 Tab99 PageLoad
+93:19:36 Tab99 StartNav1327 #typed
+93:19:36 Tab99 FinishNav1327
+93:19:36 Tab99 PageLoad
+93:19:37 Tab99 StartNav1328 #typed
+93:19:37 Tab99 FinishNav1328 ERR_ABORTED
+93:19:37 Tab99 StartNav1329 #typed
+93:19:37 Tab99 FinishNav1329
+93:19:37 Tab99 PageLoad
+93:19:39 Tab94 StartNav1330 #typed
+93:19:39 Tab94 FinishNav1330
+93:19:39 Tab94 PageLoad
+93:19:47 Tab99 StartNav1331 #typed
+93:19:47 Tab99 FinishNav1331 ERR_ABORTED
+93:19:47 Tab99 StartNav1332 #typed
+93:19:47 Tab99 FinishNav1332
+93:19:47 Tab99 PageLoad
+93:19:47 Tab99 StartNav1333 #typed
+93:19:47 Tab99 FinishNav1333
+93:19:47 Tab99 PageLoad
+93:19:51 Tab94 StartNav1334 #typed
+93:19:51 Tab94 FinishNav1334 ERR_ABORTED
+93:19:51 Tab94 StartNav1335 #typed
+93:19:51 Tab94 FinishNav1335
+93:19:51 Tab94 PageLoad
+93:20:03 Tab94 StartNav1336 #typed
+93:20:03 Tab94 FinishNav1336
+93:20:03 Tab94 PageLoad
+93:20:04 Tab94 StartNav1337 #typed
+93:20:04 Tab94 FinishNav1337
+93:20:04 Tab94 PageLoad
+93:20:05 Tab94 StartNav1338 #typed
+93:20:05 Tab94 FinishNav1338 ERR_ABORTED
+93:20:05 Tab94 StartNav1339 #typed
+93:20:05 Tab94 FinishNav1339
+93:20:05 Tab94 PageLoad
+93:20:06 Tab94 StartNav1340 #typed
+93:20:06 Tab94 FinishNav1340 ERR_ABORTED
+93:20:06 Tab94 StartNav1341 #typed
+93:20:06 Tab94 FinishNav1341
+93:20:06 Tab94 PageLoad
+93:20:09 Tab94 StartNav1342 #typed
+93:20:09 Tab94 FinishNav1342
+93:20:09 Tab94 PageLoad
+93:20:16 Tab99 StartNav1343 #typed
+93:20:16 Tab99 FinishNav1343
+93:20:16 Tab99 PageLoad
+93:20:20 Tab99 StartNav1344 #typed
+93:20:20 Tab99 FinishNav1344
+93:20:20 Tab99 PageLoad
+93:20:23 Tab94 StartNav1345 #typed
+93:20:23 Tab94 FinishNav1345
+93:20:23 Tab94 PageLoad
+93:20:23 Tab94 StartNav1346 #typed
+93:20:23 Tab94 FinishNav1346
+93:20:23 Tab94 PageLoad
+93:20:25 Tab99 StartNav1347 #typed
+93:20:25 Tab99 FinishNav1347
+93:20:25 Tab99 PageLoad
+93:20:29 Tab99 StartNav1348 #typed
+93:20:29 Tab99 FinishNav1348 ERR_ABORTED
+93:20:29 Tab99 StartNav1349 #typed
+93:20:29 Tab99 FinishNav1349
+93:20:29 Tab99 PageLoad
+93:20:34 Tab99 StartNav1350 #typed
+93:20:34 Tab99 FinishNav1350
+93:20:34 Tab99 PageLoad
+93:20:46 Tab99 StartNav1351 #typed
+93:20:46 Tab99 FinishNav1351 ERR_ABORTED
+93:20:46 Tab99 StartNav1352 #typed
+93:20:46 Tab99 FinishNav1352
+93:20:46 Tab99 PageLoad
