@@ -1,69 +1,117 @@
-93:47:24 Tab103 FinishNav1490
-93:47:24 Tab103 PageLoad
-93:47:25 Tab103 StartNav1491 #typed
-93:47:25 Tab103 FinishNav1491
-93:47:25 Tab103 PageLoad
-93:47:30 Tab103 StartNav1492 #typed
-93:47:30 Tab103 FinishNav1492 ERR_ABORTED
-93:47:30 Tab103 StartNav1493 #typed
-93:47:30 Tab103 FinishNav1493
-93:47:30 Tab103 PageLoad
-93:47:49 Tab103 StartNav1494 #typed
-93:47:49 Tab103 FinishNav1494
-93:47:49 Tab103 PageLoad
-93:47:57 Tab100 StartNav1495 #typed
-93:47:57 Tab100 FinishNav1495 ERR_ABORTED
-93:47:57 Tab100 StartNav1496 #typed
-93:47:57 Tab100 FinishNav1496
-93:47:57 Tab100 PageLoad
-93:48:01 Tab100 StartNav1497 #typed
-93:48:01 Tab100 FinishNav1497
-93:48:01 Tab100 PageLoad
-93:48:25 Tab100 StartNav1498 #typed
-93:48:25 Tab100 FinishNav1498 ERR_ABORTED
-93:48:25 Tab100 StartNav1499 #typed
-93:48:25 Tab100 FinishNav1499
-93:48:25 Tab100 PageLoad
-93:48:28 Tab100 StartNav1500 #typed
-93:48:28 Tab100 FinishNav1500
-93:48:28 Tab100 PageLoad
-93:48:29 Tab100 StartNav1501 #typed
-93:48:29 Tab100 FinishNav1501 ERR_ABORTED
-93:48:29 Tab100 StartNav1502 #typed
-93:48:29 Tab100 FinishNav1502
-93:48:29 Tab100 PageLoad
-93:48:30 Tab100 StartNav1503 #typed
-93:48:30 Tab100 FinishNav1503
-93:48:30 Tab100 PageLoad
-93:48:41 Tab100 StartNav1504 #typed
-93:48:41 Tab100 FinishNav1504
-93:48:41 Tab100 PageLoad
-93:48:43 Tab100 StartNav1505 #typed
-93:48:43 Tab100 FinishNav1505
-93:48:43 Tab100 PageLoad
-93:48:47 Tab102 StartNav1506 #typed
-93:48:47 Tab102 FinishNav1506
-93:48:47 Tab102 PageLoad
-93:49:00 Tab102 StartNav1507 #typed
-93:49:00 Tab102 FinishNav1507
-93:49:00 Tab102 PageLoad
-93:49:08 Tab102 StartNav1508 #typed
-93:49:08 Tab102 FinishNav1508 ERR_ABORTED
-93:49:08 Tab102 StartNav1509 #typed
-93:49:08 Tab102 FinishNav1509
-93:49:08 Tab102 PageLoad
-93:49:12 Tab102 StartNav1510 #typed
-93:49:12 Tab102 FinishNav1510
-93:49:12 Tab102 PageLoad
-93:49:13 Tab102 StartNav1511 #typed
-93:49:13 Tab102 FinishNav1511
-93:49:13 Tab102 PageLoad
-93:49:22 Tab102 StartNav1512 #typed
-93:49:22 Tab102 FinishNav1512
-93:49:22 Tab102 PageLoad
-93:49:23 Tab102 StartNav1513 #typed
-93:49:23 Tab102 FinishNav1513
-93:49:23 Tab102 PageLoad
-93:51:04 Tab102 StartNav1514 #typed
-93:51:04 Tab102 FinishNav1514
-93:51:04 Tab102 PageLoad
+94:30:44 Tab108 PageLoad
+94:30:44 Tab108 FinishNav1655
+94:30:44 Tab108 PageLoad
+94:30:44 Tab108 StartNav1656 #typed
+94:30:44 Tab108 FinishNav1656
+94:30:44 Tab108 PageLoad
+94:30:46 Tab108 StartNav1657 #typed
+94:30:46 Tab108 FinishNav1657
+94:30:46 Tab108 PageLoad
+94:30:48 Tab108 StartNav1658 #typed
+94:30:48 Tab108 FinishNav1658
+94:30:48 Tab108 PageLoad
+94:30:53 Tab108 StartNav1659 #typed
+94:30:53 Tab108 FinishNav1659
+94:30:53 Tab108 PageLoad
+94:30:56 Tab108 StartNav1660 #typed
+94:30:56 Tab108 FinishNav1660
+94:30:56 Tab108 PageLoad
+94:31:13 Tab108 StartNav1661 #typed
+94:31:13 Tab108 FinishNav1661
+94:31:13 Tab108 PageLoad
+94:31:17 Tab108 StartNav1662 #typed
+94:31:17 Tab108 FinishNav1662
+94:31:17 Tab108 PageLoad
+94:31:19 Tab108 StartNav1663 #typed
+94:31:19 Tab108 FinishNav1663
+94:31:19 Tab108 PageLoad
+94:31:21 Tab108 StartNav1664 #typed
+94:31:21 Tab108 FinishNav1664
+94:31:21 Tab108 PageLoad
+94:31:23 Tab108 StartNav1665 #typed
+94:31:23 Tab108 FinishNav1665
+94:31:23 Tab108 PageLoad
+94:31:25 Tab108 StartNav1666 #typed
+94:31:25 Tab108 FinishNav1666
+94:31:25 Tab108 PageLoad
+94:31:28 Tab108 StartNav1667 #typed
+94:31:28 Tab108 FinishNav1667
+94:31:28 Tab108 PageLoad
+94:31:30 Tab108 StartNav1668 #typed
+94:31:30 Tab108 FinishNav1668
+94:31:30 Tab108 PageLoad
+94:31:31 Tab108 StartNav1669 #typed
+94:31:31 Tab108 FinishNav1669
+94:31:31 Tab108 PageLoad
+94:31:32 Tab108 StartNav1670 #typed
+94:31:32 Tab108 FinishNav1670
+94:31:32 Tab108 PageLoad
+94:31:34 Tab108 StartNav1671 #typed
+94:31:34 Tab108 FinishNav1671
+94:31:34 Tab108 PageLoad
+94:31:34 Tab108 StartNav1672 #typed
+94:31:34 Tab108 FinishNav1672
+94:31:34 Tab108 PageLoad
+94:31:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+94:31:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_False
+94:31:36 Microsoft.Shutdown.OnWindowClosing
+94:31:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+94:31:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+94:31:36 Microsoft.Shutdown.TabStripModel.CloseAllTabs
+94:31:36 Microsoft.Shutdown.TabStripModel.CloseTabs
+94:31:36 Microsoft.Shutdown.TabStripModel.CloseTabs_EdgeBeforeClosingAllTabs
+94:31:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl
+94:31:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_TabClosable
+94:31:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosingAll
+94:31:36 Microsoft.Shutdown.TabStripModel.CloseWebContentses
+94:31:36 Microsoft.Shutdown.TabStripModel.CloseWebContentses_FastShutdown
+94:31:36 Microsoft.Shutdown.TabStripModel.ShouldRunUnloadListenerBeforeClosing_false
+94:31:36 Tab108 RenderProcessGone
+94:31:36 Microsoft.UnloadController.ClearUnloadState
+94:31:36 Microsoft.Shutdown.TabStripModel.RunUnloadListenerBeforeClosing_false
+94:31:36 Microsoft.Shutdown.TabStripModel.InternalCloseTabsImpl_ClosedAll
+94:31:36 Microsoft.Shutdown.TabStripModel.SendDetachWebContentsNotifications
+94:31:36 Browser108 Close Tab108 at 0
+94:31:36 Microsoft.UnloadController.ClearUnloadState
+94:31:36 Tab108 WebContentsDestroyed
+94:31:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+94:31:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+94:31:36 Microsoft.Shutdown.OnWindowClosing
+94:31:36 Microsoft.UnloadController.IsUnclosableApp_IsNotWebApp
+94:31:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+94:31:36 Microsoft.Shutdown.OnWindowClosing_MaybeClearBrowsingDataOnExit
+94:31:36 Microsoft.Shutdown.OnWindowClosing_ClearBrowsingDataOnExitNotInProgress
+94:31:36 Microsoft.Shutdown.OnWindowClosingPostClearBrowsingData_NoBrowsingDataCleared
+94:31:36 Widget Closed: BrowserWidget
+94:31:36 Microsoft.UnloadController.TabStripEmpty
+94:31:36 Microsoft.UnloadController.HasCompletedUnloadProcessing_True
+94:31:36 Microsoft.Shutdown.OnWindowClosing
+94:31:36 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
+94:31:36 Microsoft.Browser_Removed
+94:31:51 Microsoft.NewBrowser_Popup
+94:31:51 Microsoft.BrowserList.AddBrowser
+94:31:51 Browser109 Insert active Tab109 at 0
+94:31:51 Tab109 StartNav1673 #auto_toplevel
+94:31:51 Tab109 StartNav1674 #typed
+94:31:51 Tab109 FinishNav1673
+94:31:51 Tab109 PageLoad
+94:31:51 Tab109 FinishNav1674
+94:31:51 Tab109 PageLoad
+94:31:51 Tab109 StartNav1675 #typed
+94:31:51 Tab109 FinishNav1675
+94:31:51 Tab109 PageLoad
+94:31:57 Tab109 StartNav1676 #typed
+94:31:57 Tab109 FinishNav1676
+94:31:57 Tab109 PageLoad
+94:32:29 Microsoft.NewBrowser_Popup
+94:32:30 Microsoft.BrowserList.AddBrowser
+94:32:30 Browser110 Insert active Tab110 at 0
+94:32:30 Tab110 StartNav1677 #auto_toplevel
+94:32:30 Tab110 StartNav1678 #typed
+94:32:30 Tab110 FinishNav1677
+94:32:30 Tab110 PageLoad
+94:32:30 Tab110 FinishNav1678
+94:32:30 Tab110 PageLoad
+94:32:35 Tab110 StartNav1679 #typed
+94:32:35 Tab110 FinishNav1679
+94:32:35 Tab110 PageLoad

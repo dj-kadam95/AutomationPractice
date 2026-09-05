@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 
 public class Login {
 
@@ -43,14 +43,16 @@ public class Login {
 		loginBtn.click();
 	}
 	
-	public void waitForElement(String Text) {
+	public String waitForElement() {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(text));
 		String actualText=driver.findElement(By.tagName("a")).getText();
-		String expectedText=Text;
-		System.out.println(actualText);
-		System.out.println(expectedText);
-		Assert.assertEquals(actualText, expectedText);
+		return actualText;
+		
+	}
+	
+public void skipBtn() {
+		
 		skipBtn.click();
 		
 	}

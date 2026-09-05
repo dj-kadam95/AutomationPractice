@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -15,13 +16,18 @@ import test_components.Base_class_step1;
 
 public class testCase1_registration extends Base_class_step1 {
 
-	@Test(dataProvider = "Data")
+	@Test(dataProvider = "Data",priority = 2)
 	public void registration(String name, String Lname, String id, String PW, String text) throws InterruptedException {
 		Registration LP = url.goToURL();
 		LP.loginBtn();
 		LP.createAcBtn();
 		LP.register(name, Lname, id, PW);
-		LP.waitForElement(text);
+		String actualText=LP.waitForElement();
+		String expectedText=text;
+		System.out.println(actualText);
+		System.out.println(expectedText);
+		Assert.assertEquals(actualText, expectedText);
+		LP.skipBtn();
 	}
 
 	@Test(dataProvider = "Data", priority = 2)
@@ -30,7 +36,12 @@ public class testCase1_registration extends Base_class_step1 {
 		reg.loginBtn();
 		Login login = new Login(driver);
 		login.login(id, PW);
-		login.waitForElement(text);
+		String actualText=login.waitForElement();
+		String expectedText=text;
+		System.out.println(actualText);
+		System.out.println(expectedText);
+		Assert.assertEquals(actualText, expectedText);
+		login.skipBtn();
 
 	}
 
