@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="test_components.Base_class_step1"/>
       <class name="testCases_step3.testCase1_registration"/>
     </classes>
   </test> <!-- Test -->
