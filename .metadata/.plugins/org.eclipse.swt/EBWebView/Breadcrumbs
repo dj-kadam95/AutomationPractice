@@ -1,175 +1,62 @@
-93:18:56 Tab99 PageLoad
-93:18:57 Tab99 StartNav1317 #typed
-93:18:57 Tab99 FinishNav1317
-93:18:57 Tab99 PageLoad
-93:18:59 Tab99 StartNav1318 #typed
-93:18:59 Tab99 FinishNav1318
-93:18:59 Tab99 PageLoad
-93:19:10 Tab99 StartNav1319 #typed
-93:19:10 Tab99 FinishNav1319
-93:19:10 Tab99 PageLoad
-93:19:15 Tab94 StartNav1320 #typed
-93:19:15 Tab94 FinishNav1320
-93:19:15 Tab94 PageLoad
-93:19:25 Tab99 StartNav1321 #typed
-93:19:25 Tab99 FinishNav1321
-93:19:25 Tab99 PageLoad
-93:19:26 Tab99 StartNav1322 #typed
-93:19:26 Tab99 FinishNav1322
-93:19:26 Tab99 PageLoad
-93:19:30 Tab99 StartNav1323 #typed
-93:19:30 Tab99 FinishNav1323 ERR_ABORTED
-93:19:30 Tab99 StartNav1324 #typed
-93:19:30 Tab99 FinishNav1324
-93:19:30 Tab99 PageLoad
-93:19:35 Tab99 StartNav1325 #typed
-93:19:35 Tab99 FinishNav1325
-93:19:35 Tab99 PageLoad
-93:19:36 Tab99 StartNav1326 #typed
-93:19:36 Tab99 FinishNav1326
-93:19:36 Tab99 PageLoad
-93:19:36 Tab99 StartNav1327 #typed
-93:19:36 Tab99 FinishNav1327
-93:19:36 Tab99 PageLoad
-93:19:37 Tab99 StartNav1328 #typed
-93:19:37 Tab99 FinishNav1328 ERR_ABORTED
-93:19:37 Tab99 StartNav1329 #typed
-93:19:37 Tab99 FinishNav1329
-93:19:37 Tab99 PageLoad
-93:19:39 Tab94 StartNav1330 #typed
-93:19:39 Tab94 FinishNav1330
-93:19:39 Tab94 PageLoad
-93:19:47 Tab99 StartNav1331 #typed
-93:19:47 Tab99 FinishNav1331 ERR_ABORTED
-93:19:47 Tab99 StartNav1332 #typed
-93:19:47 Tab99 FinishNav1332
-93:19:47 Tab99 PageLoad
-93:19:47 Tab99 StartNav1333 #typed
-93:19:47 Tab99 FinishNav1333
-93:19:47 Tab99 PageLoad
-93:19:51 Tab94 StartNav1334 #typed
-93:19:51 Tab94 FinishNav1334 ERR_ABORTED
-93:19:51 Tab94 StartNav1335 #typed
-93:19:51 Tab94 FinishNav1335
-93:19:51 Tab94 PageLoad
-93:20:03 Tab94 StartNav1336 #typed
-93:20:03 Tab94 FinishNav1336
-93:20:03 Tab94 PageLoad
-93:20:04 Tab94 StartNav1337 #typed
-93:20:04 Tab94 FinishNav1337
-93:20:04 Tab94 PageLoad
-93:20:05 Tab94 StartNav1338 #typed
-93:20:05 Tab94 FinishNav1338 ERR_ABORTED
-93:20:05 Tab94 StartNav1339 #typed
-93:20:05 Tab94 FinishNav1339
-93:20:05 Tab94 PageLoad
-93:20:06 Tab94 StartNav1340 #typed
-93:20:06 Tab94 FinishNav1340 ERR_ABORTED
-93:20:06 Tab94 StartNav1341 #typed
-93:20:06 Tab94 FinishNav1341
-93:20:06 Tab94 PageLoad
-93:20:09 Tab94 StartNav1342 #typed
-93:20:09 Tab94 FinishNav1342
-93:20:09 Tab94 PageLoad
-93:20:16 Tab99 StartNav1343 #typed
-93:20:16 Tab99 FinishNav1343
-93:20:16 Tab99 PageLoad
-93:20:20 Tab99 StartNav1344 #typed
-93:20:20 Tab99 FinishNav1344
-93:20:20 Tab99 PageLoad
-93:20:23 Tab94 StartNav1345 #typed
-93:20:23 Tab94 FinishNav1345
-93:20:23 Tab94 PageLoad
-93:20:23 Tab94 StartNav1346 #typed
-93:20:23 Tab94 FinishNav1346
-93:20:23 Tab94 PageLoad
-93:20:25 Tab99 StartNav1347 #typed
-93:20:25 Tab99 FinishNav1347
-93:20:25 Tab99 PageLoad
-93:20:29 Tab99 StartNav1348 #typed
-93:20:29 Tab99 FinishNav1348 ERR_ABORTED
-93:20:29 Tab99 StartNav1349 #typed
-93:20:29 Tab99 FinishNav1349
-93:20:29 Tab99 PageLoad
-93:20:34 Tab99 StartNav1350 #typed
-93:20:34 Tab99 FinishNav1350
-93:20:34 Tab99 PageLoad
-93:20:46 Tab99 StartNav1351 #typed
-93:20:46 Tab99 FinishNav1351 ERR_ABORTED
-93:20:46 Tab99 StartNav1352 #typed
-93:20:46 Tab99 FinishNav1352
-93:20:46 Tab99 PageLoad
-93:23:54 Tab99 StartNav1353 #typed
-93:23:54 Tab99 FinishNav1353 ERR_ABORTED
-93:23:54 Tab99 StartNav1354 #typed
-93:23:54 Tab99 FinishNav1354
-93:23:54 Tab99 PageLoad
-93:23:58 Tab94 StartNav1355 #typed
-93:23:58 Tab94 FinishNav1355
-93:23:58 Tab94 PageLoad
-93:24:01 Tab94 StartNav1356 #typed
-93:24:01 Tab94 FinishNav1356
-93:24:01 Tab94 PageLoad
-93:24:01 Tab94 StartNav1357 #typed
-93:24:01 Tab94 FinishNav1357
-93:24:01 Tab94 PageLoad
-93:24:01 Tab94 StartNav1358 #typed
-93:24:01 Tab94 FinishNav1358
-93:24:01 Tab94 PageLoad
-93:24:01 Tab94 StartNav1359 #typed
-93:24:01 Tab94 FinishNav1359
-93:24:01 Tab94 PageLoad
-93:24:03 Tab94 StartNav1360 #typed
-93:24:03 Tab94 FinishNav1360
-93:24:03 Tab94 PageLoad
-93:24:06 Tab99 StartNav1361 #typed
-93:24:06 Tab99 FinishNav1361
-93:24:06 Tab99 PageLoad
-93:24:09 Tab99 StartNav1362 #typed
-93:24:09 Tab99 FinishNav1362
-93:24:09 Tab99 PageLoad
-93:24:09 Tab99 StartNav1363 #typed
-93:24:09 Tab99 FinishNav1363
-93:24:09 Tab99 PageLoad
-93:24:09 Tab99 StartNav1364 #typed
-93:24:09 Tab99 FinishNav1364
-93:24:09 Tab99 PageLoad
-93:24:19 Tab99 StartNav1365 #typed
-93:24:19 Tab99 FinishNav1365
-93:24:19 Tab99 PageLoad
-93:24:21 Tab99 StartNav1366 #typed
-93:24:21 Tab99 FinishNav1366
-93:24:21 Tab99 PageLoad
-93:25:01 Tab99 StartNav1367 #typed
-93:25:01 Tab99 FinishNav1367
-93:25:01 Tab99 PageLoad
-93:25:06 Tab99 StartNav1368 #typed
-93:25:06 Tab99 FinishNav1368
-93:25:06 Tab99 PageLoad
-93:25:12 Tab99 StartNav1369 #typed
-93:25:12 Tab99 FinishNav1369
-93:25:12 Tab99 PageLoad
-93:25:16 Tab99 StartNav1370 #typed
-93:25:16 Tab99 FinishNav1370 ERR_ABORTED
-93:25:16 Tab99 StartNav1371 #typed
-93:25:16 Tab99 FinishNav1371
-93:25:16 Tab99 PageLoad
-93:25:17 Tab99 StartNav1372 #typed
-93:25:17 Tab99 FinishNav1372 ERR_ABORTED
-93:25:17 Tab99 StartNav1373 #typed
-93:25:17 Tab99 FinishNav1373
-93:25:17 Tab99 PageLoad
-93:25:19 Tab99 StartNav1374 #typed
-93:25:19 Tab99 FinishNav1374 ERR_ABORTED
-93:25:19 Tab99 StartNav1375 #typed
-93:25:19 Tab99 FinishNav1375
-93:25:19 Tab99 PageLoad
-93:25:41 Tab99 StartNav1376 #typed
-93:25:41 Tab99 FinishNav1376
-93:25:41 Tab99 PageLoad
-93:27:48 Tab99 StartNav1377 #typed
-93:27:48 Tab99 FinishNav1377
 93:27:48 Tab99 PageLoad
 93:27:53 Tab99 StartNav1378 #typed
 93:27:53 Tab99 FinishNav1378
 93:27:53 Tab99 PageLoad
+93:28:34 Tab99 StartNav1379 #typed
+93:28:34 Tab99 FinishNav1379
+93:28:34 Tab99 PageLoad
+93:28:35 Tab99 StartNav1380 #typed
+93:28:35 Tab99 FinishNav1380
+93:28:35 Tab99 PageLoad
+93:29:16 Tab99 StartNav1381 #typed
+93:29:16 Tab99 FinishNav1381 ERR_ABORTED
+93:29:16 Tab99 StartNav1382 #typed
+93:29:16 Tab99 FinishNav1382
+93:29:16 Tab99 PageLoad
+93:29:17 Tab99 StartNav1383 #typed
+93:29:17 Tab99 FinishNav1383
+93:29:17 Tab99 PageLoad
+93:29:18 Tab99 StartNav1384 #typed
+93:29:18 Tab99 FinishNav1384
+93:29:18 Tab99 PageLoad
+93:29:23 Tab99 StartNav1385 #typed
+93:29:23 Tab99 FinishNav1385 ERR_ABORTED
+93:29:23 Tab99 StartNav1386 #typed
+93:29:23 Tab99 FinishNav1386
+93:29:23 Tab99 PageLoad
+93:29:23 Tab99 StartNav1387 #typed
+93:29:23 Tab99 FinishNav1387
+93:29:23 Tab99 PageLoad
+93:29:24 Tab99 StartNav1388 #typed
+93:29:24 Tab99 FinishNav1388
+93:29:24 Tab99 PageLoad
+93:29:26 Tab99 StartNav1389 #typed
+93:29:26 Tab99 FinishNav1389
+93:29:26 Tab99 PageLoad
+93:29:30 Tab99 StartNav1390 #typed
+93:29:30 Tab99 FinishNav1390
+93:29:30 Tab99 PageLoad
+93:29:33 Tab99 StartNav1391 #typed
+93:29:33 Tab99 FinishNav1391 ERR_ABORTED
+93:29:33 Tab99 StartNav1392 #typed
+93:29:33 Tab99 FinishNav1392
+93:29:33 Tab99 PageLoad
+93:29:34 Tab99 StartNav1393 #typed
+93:29:34 Tab99 FinishNav1393
+93:29:34 Tab99 PageLoad
+93:29:37 Tab99 StartNav1394 #typed
+93:29:37 Tab99 FinishNav1394 ERR_ABORTED
+93:29:37 Tab99 StartNav1395 #typed
+93:29:37 Tab99 FinishNav1395
+93:29:37 Tab99 PageLoad
+93:29:44 Tab99 StartNav1396 #typed
+93:29:44 Tab99 FinishNav1396 ERR_ABORTED
+93:29:44 Tab99 StartNav1397 #typed
+93:29:45 Tab99 FinishNav1397
+93:29:45 Tab99 PageLoad
+93:29:45 Tab99 StartNav1398 #typed
+93:29:45 Tab99 FinishNav1398
+93:29:45 Tab99 PageLoad
+93:30:29 Tab99 StartNav1399 #typed
+93:30:29 Tab99 FinishNav1399
+93:30:29 Tab99 PageLoad
