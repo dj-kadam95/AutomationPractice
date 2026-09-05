@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-05T19:56:34 IST" name="Default suite" finished-at="2026-09-05T19:56:45 IST" duration-ms="11680">
+  <suite started-at="2026-09-05T21:06:32 IST" name="Suite" finished-at="2026-09-05T21:06:44 IST" duration-ms="11552">
     <groups>
     </groups>
-    <test started-at="2026-09-05T19:56:34 IST" name="Default test" finished-at="2026-09-05T19:56:45 IST" duration-ms="11680">
+    <test started-at="2026-09-05T21:06:32 IST" name="Test" finished-at="2026-09-05T21:06:44 IST" duration-ms="11552">
       <class name="testCases_step3.testCase1_registration">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.testCase1_registration@45c7e403]" started-at="2026-09-05T19:56:34 IST" name="launchApp" finished-at="2026-09-05T19:56:35 IST" duration-ms="1163" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.testCase1_registration@1e66f1f5]" started-at="2026-09-05T21:06:33 IST" name="launchApp" finished-at="2026-09-05T21:06:34 IST" duration-ms="1046" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_step3.testCase1_registration@45c7e403]" started-at="2026-09-05T19:56:35 IST" name="registration" data-provider="Data" finished-at="2026-09-05T19:56:40 IST" duration-ms="4132" status="PASS">
+        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases_step3.testCase1_registration@1e66f1f5]" started-at="2026-09-05T21:06:34 IST" name="registration" data-provider="Data" finished-at="2026-09-05T21:06:38 IST" duration-ms="3932" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,15 +42,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.testCase1_registration@45c7e403]" started-at="2026-09-05T19:56:40 IST" name="tearDown" finished-at="2026-09-05T19:56:40 IST" duration-ms="219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.testCase1_registration@1e66f1f5]" started-at="2026-09-05T21:06:38 IST" name="tearDown" finished-at="2026-09-05T21:06:38 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.testCase1_registration@45c7e403]" started-at="2026-09-05T19:56:40 IST" name="launchApp" finished-at="2026-09-05T19:56:41 IST" duration-ms="911" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.testCase1_registration@1e66f1f5]" started-at="2026-09-05T21:06:38 IST" name="launchApp" finished-at="2026-09-05T21:06:39 IST" duration-ms="779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases_step3.testCase1_registration@45c7e403]" started-at="2026-09-05T19:56:41 IST" name="login" data-provider="Data" finished-at="2026-09-05T19:56:45 IST" duration-ms="4188" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases_step3.testCase1_registration@1e66f1f5]" started-at="2026-09-05T21:06:39 IST" name="login" data-provider="Data" finished-at="2026-09-05T21:06:43 IST" duration-ms="4720" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,11 +81,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.testCase1_registration@45c7e403]" started-at="2026-09-05T19:56:45 IST" name="tearDown" finished-at="2026-09-05T19:56:45 IST" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.testCase1_registration@1e66f1f5]" started-at="2026-09-05T21:06:43 IST" name="tearDown" finished-at="2026-09-05T21:06:44 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases_step3.testCase1_registration -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
