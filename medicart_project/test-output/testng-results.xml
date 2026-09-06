@@ -1,87 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-06T11:03:51 IST" name="Suite" finished-at="2026-09-06T11:04:38 IST" duration-ms="47209">
+  <suite started-at="2026-09-06T11:15:15 IST" name="Default suite" finished-at="2026-09-06T11:15:19 IST" duration-ms="4017">
     <groups>
-      <group name="captcha">
-        <method signature="TestCase1_registration.registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases_step3.TestCase1_registration@4e50c791]" name="registration" class="testCases_step3.TestCase1_registration"/>
-        <method signature="TestCase2_login.login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases_step3.TestCase2_login@68e5eea7]" name="login" class="testCases_step3.TestCase2_login"/>
-      </group> <!-- captcha -->
     </groups>
-    <test started-at="2026-09-06T11:03:51 IST" name="Test" finished-at="2026-09-06T11:04:38 IST" duration-ms="47209">
-      <class name="testCases_step3.TestCase2_login">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.TestCase2_login@68e5eea7]" started-at="2026-09-06T11:04:16 IST" name="launchApp" finished-at="2026-09-06T11:04:17 IST" duration-ms="766" status="PASS">
+    <test started-at="2026-09-06T11:15:15 IST" name="Default test" finished-at="2026-09-06T11:15:19 IST" duration-ms="4017">
+      <class name="testCases_step3.Testcase3_search_product">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.Testcase3_search_product@4c39bec8]" started-at="2026-09-06T11:15:15 IST" name="launchApp" finished-at="2026-09-06T11:15:16 IST" duration-ms="1155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases_step3.TestCase2_login@68e5eea7]" started-at="2026-09-06T11:04:17 IST" name="login" data-provider="Data" finished-at="2026-09-06T11:04:38 IST" duration-ms="20330" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[dkdhananjay77@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Shubh@15061995]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Return to the previous page.]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="searchProduct()[pri:0, instance:testCases_step3.Testcase3_search_product@4c39bec8]" started-at="2026-09-06T11:15:16 IST" name="searchProduct" finished-at="2026-09-06T11:15:19 IST" duration-ms="2622" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.TestCase2_login@68e5eea7]" started-at="2026-09-06T11:04:38 IST" name="tearDown" finished-at="2026-09-06T11:04:38 IST" duration-ms="289" status="PASS">
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.Testcase3_search_product@4c39bec8]" started-at="2026-09-06T11:15:19 IST" name="tearDown" finished-at="2026-09-06T11:15:19 IST" duration-ms="204" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases_step3.TestCase2_login -->
-      <class name="testCases_step3.TestCase1_registration">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.TestCase1_registration@4e50c791]" started-at="2026-09-06T11:03:51 IST" name="launchApp" finished-at="2026-09-06T11:03:52 IST" duration-ms="1085" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="registration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases_step3.TestCase1_registration@4e50c791]" started-at="2026-09-06T11:03:52 IST" name="registration" data-provider="Data" finished-at="2026-09-06T11:04:16 IST" duration-ms="23887" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dhananjay]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Kadam]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[dkdhananjay77@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Shubh@15061995]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[India’s trustworthy online store for healthcare products]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.TestCase1_registration@4e50c791]" started-at="2026-09-06T11:04:16 IST" name="tearDown" finished-at="2026-09-06T11:04:16 IST" duration-ms="277" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases_step3.TestCase1_registration -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- testCases_step3.Testcase3_search_product -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
