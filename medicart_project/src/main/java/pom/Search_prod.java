@@ -30,6 +30,9 @@ public class Search_prod extends WebDriverwait {
 	
 	public void searchProd(String prod) {
 		
+		waitForElement(searchBox);
+		waitForElementToBeClickable(searchBox);
+		
 		searchBox.click();
 		searchBox.sendKeys(prod);
 		searchBtn.click();

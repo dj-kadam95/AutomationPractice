@@ -27,7 +27,7 @@ public class WebDriverwait {
 
 	    public void waitForElement(WebElement locator) {
 	        WebDriverWait wait =
-	            new WebDriverWait(driver, Duration.ofSeconds(60));
+	            new WebDriverWait(driver, Duration.ofSeconds(10));
 
 	        wait.until(ExpectedConditions.visibilityOf(locator));
 	    }
