@@ -3,6 +3,7 @@ package abstract_components;
 import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -39,14 +40,25 @@ public class WebDriverwait {
 	        wait.until(ExpectedConditions.elementToBeClickable(locator));
 	    }
 	    
-	    public void waitForElement1(List<WebElement> prods) {
+	    public void waitForAtLeastOneElement(By locator) {
 
 	        WebDriverWait wait =
-	            new WebDriverWait(driver, Duration.ofSeconds(30));
+	                new WebDriverWait(driver, Duration.ofSeconds(30));
 
-	        wait.until(
-	            ExpectedConditions.visibilityOfAllElements(prods)
-	        );
+	        wait.until(driver -> {
+
+	            List<WebElement> elements =
+	                    driver.findElements(locator);
+
+	            for (WebElement element : elements) {
+
+	                if (element.isDisplayed()) {
+	                    return true;
+	                }
+	            }
+
+	            return false;
+	        });
 	    }
 	}
 

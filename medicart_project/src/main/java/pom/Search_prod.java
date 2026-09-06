@@ -3,6 +3,7 @@ package pom;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,6 +31,9 @@ public class Search_prod extends WebDriverwait {
 
 	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a")
 	List<WebElement> prods;
+	
+	By productLocator =
+	        By.xpath("//h3[@class='t4s-product-title']/child::a");
 
 	public void searchProd(String prod) {
 
@@ -44,7 +48,7 @@ public class Search_prod extends WebDriverwait {
 //	String names[] = new String[5];
 
 	public void prods1(String Prods) throws InterruptedException {
-		 Thread.sleep(20000);
+		 waitForAtLeastOneElement(productLocator);
 		for (int i = 0; i < prods.size(); i++) {
 
 			String prodName = prods.get(i).getText();
@@ -58,7 +62,7 @@ public class Search_prod extends WebDriverwait {
 
 	public List<String> products(String Prods) throws InterruptedException {
 	 //Thread.sleep(20000);
-		 waitForElement1(prods);
+		 waitForAtLeastOneElement(productLocator);
 		int prodCount = prods.size();
 		List<String> names = new ArrayList<>();
 		for (int i = 0; i < prodCount; i++) {
