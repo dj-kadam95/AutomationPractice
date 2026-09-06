@@ -20,7 +20,7 @@ public class Search_prod extends WebDriverwait {
 		
 	}
 
-	@FindBy(xpath="//input[@placeholder='Search for products']")
+	@FindBy(xpath="(//input[@name='q'])[1]")
 	WebElement search_prod;
 	
 	@FindBy(xpath="//button[@class='t4s-search-header__submit']") 
@@ -31,6 +31,7 @@ public class Search_prod extends WebDriverwait {
 	
 	public void searchProd(String prod) {
 		waitForElementToBeClickable(search_prod);
+		search_prod.click();
 		search_prod.sendKeys(prod);
 		searchBtn.click();
 	}
