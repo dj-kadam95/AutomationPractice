@@ -1,15 +1,10 @@
 package pom;
-
-import java.time.Duration;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import abstract_components.WebDriverwait;
 
@@ -25,7 +20,7 @@ public class Search_prod extends WebDriverwait {
 	}
 
 	@FindBy(xpath="//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
-	WebElement search_prod;
+	WebElement searchBox;
 	
 	@FindBy(xpath="//button[@class='t4s-search-header__submit']") 
 	WebElement searchBtn;
@@ -34,18 +29,7 @@ public class Search_prod extends WebDriverwait {
 	List<WebElement> prods;
 	
 	public void searchProd(String prod) {
-		 WebDriverWait wait =
-		            new WebDriverWait(driver, Duration.ofSeconds(20));
-
-		    WebElement searchBox = wait.until(
-		            ExpectedConditions.visibilityOfElementLocated(
-		                    By.xpath("//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
-		            )
-		    );
-
-		    wait.until(
-		            ExpectedConditions.elementToBeClickable(searchBox)
-		    );
+		
 		searchBox.click();
 		searchBox.sendKeys(prod);
 		searchBtn.click();
