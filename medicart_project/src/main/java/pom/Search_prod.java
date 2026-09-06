@@ -7,10 +7,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Search_prod {
+import abstract_components.WebDriverwait;
+
+public class Search_prod extends WebDriverwait {
 
 	WebDriver driver;
 	public Search_prod(WebDriver driver) {
+		super(driver);
 		// TODO Auto-generated constructor stub
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
@@ -27,6 +30,7 @@ public class Search_prod {
 	List<WebElement> prods;
 	
 	public void searchProd(String prod) {
+		waitForElementToBeClickable(search_prod);
 		search_prod.sendKeys(prod);
 		searchBtn.click();
 	}

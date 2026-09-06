@@ -21,12 +21,21 @@ public class WebDriverwait {
 	    
 	    @FindBy(tagName="a")
 		WebElement text;
+	    
+	    @FindBy(tagName="(//input[@name='q'])[1]")
+		WebElement serach;
 
 	    public void waitForElement(WebElement locator) {
 	        WebDriverWait wait =
 	            new WebDriverWait(driver, Duration.ofSeconds(60));
 
 	        wait.until(ExpectedConditions.visibilityOf(locator));
+	    }
+	    public void waitForElementToBeClickable(WebElement locator) {
+	        WebDriverWait wait =
+	            new WebDriverWait(driver, Duration.ofSeconds(60));
+
+	        wait.until(ExpectedConditions.elementToBeClickable(locator));
 	    }
 	}
 
