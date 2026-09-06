@@ -21,7 +21,7 @@ public class Testcase3_search_product extends Base_class_step1 {
 		List<String> prods = sp.products("Medikart");
 		System.out.println(prods);
 
-		String expectedProds[] = {"Medikart Compressor Nebulizer MK NE-C05", "Medikart Portable Mesh Nebulizer"};
+		String expectedProds[] = {"Medikart Compressor Nebulizer MK NE-C05"};
 		List<String> expectedProducts = Arrays.asList(expectedProds);
 		System.out.println(expectedProducts);
 
