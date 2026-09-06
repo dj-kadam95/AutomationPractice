@@ -2,11 +2,16 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
     <classes>
-      <class name="test_components.Base_class_step1"/>
+     <class name="testCases_step3.TestCase1_registration"/>
       <class name="testCases_step3.TestCase2_login"/>
       <class name="testCases_step3.Testcase3_search_product"/>
-      <class name="testCases_step3.TestCase1_registration"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
