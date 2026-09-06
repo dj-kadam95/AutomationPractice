@@ -35,7 +35,7 @@ public class Testcase3_search_product extends Base_class_step1 {
 				}
 
 			}
-			Assert.assertFalse(found);
+			Assert.assertTrue(found);
 		}
 
 	}
