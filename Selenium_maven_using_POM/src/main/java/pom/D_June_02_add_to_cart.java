@@ -44,17 +44,15 @@ public class D_June_02_add_to_cart extends Wait {
 		for (int i = 0; i < prods.size(); i++) {
 
 			String ab = prods.get(i).getText();
-		//	waitForWebElementToAppear1(prods);
-			//Thread.sleep(2000);
-			if (ab.contains(abc)) {
-				System.out.println(ab+"cb");
+		
+			if (ab.toLowerCase().contains(abc.toLowerCase())) {
+				System.out.println(ab);
 				count++;
-		//		waitForWebElementToAppear1(cartButton);
 				cartButton.get(i).click();
 			}
 		}
 		
-		System.out.println("countcb "+count);
+		System.out.println("count "+count);
 	}
 
 }

@@ -50,8 +50,15 @@ public class Registration extends WebDriverwait  {
 	@FindBy(xpath="(//button[@class='t4s-drawer__close'])[2]")
 	WebElement skipBtn;
 	
-	public void loginBtn() {
+	public Login loginBtn() {
 		login.click();
+		Login LP = new Login(driver);
+		return LP;
+	}
+	
+	public Search_prod search() {
+		Search_prod sp = new Search_prod(driver);
+		return sp;
 	}
 	
 	public void createAcBtn() {

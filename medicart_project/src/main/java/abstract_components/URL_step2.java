@@ -2,7 +2,6 @@ package abstract_components;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-
 import pom.Registration;
 
 public class URL_step2 {
@@ -21,5 +20,4 @@ public class URL_step2 {
 		Registration LP = new Registration(driver);
 		return LP;
 	}
-
 }
