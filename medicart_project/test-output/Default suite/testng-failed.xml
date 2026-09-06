@@ -6,6 +6,7 @@
       <class name="testCases_step3.testCase1_registration">
         <methods>
           <include name="launchApp"/>
+          <include name="login" invocation-numbers="0"/>
           <include name="tearDown"/>
           <include name="registration" invocation-numbers="0"/>
         </methods>

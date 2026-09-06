@@ -1,22 +1,21 @@
 package pom;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-public class Login {
+import abstract_components.WebDriverwait;
+
+
+public class Login extends WebDriverwait {
 
 	WebDriver driver;
 	
 	public Login(WebDriver driver) {
-		super();
+		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 		
@@ -31,6 +30,9 @@ public class Login {
 	@FindBy(xpath="//button[text()='Sign In']")
 	WebElement loginBtn;
 	
+//	@FindBy(xpath="//a[text()='Return to the previous page.']")
+//	WebElement text;
+	
 	@FindBy(tagName="a")
 	WebElement text;
 	
@@ -44,8 +46,8 @@ public class Login {
 	}
 	
 	public String waitForElement() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOf(text));
+		
+		waitForElement(text);
 		String actualText=driver.findElement(By.tagName("a")).getText();
 		return actualText;
 		

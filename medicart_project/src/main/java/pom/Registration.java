@@ -1,23 +1,21 @@
 package pom;
 
-import java.time.Duration;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Registration {
+
+import abstract_components.WebDriverwait;
+
+public class Registration extends WebDriverwait  {
 	
 	WebDriver driver;
 
 	public Registration(WebDriver driver) {
+		super(driver);
 		// TODO Auto-generated constructor stub
-		
-		super();
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -71,8 +69,7 @@ public class Registration {
 	}
 	
 	public String waitForElement() {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		wait.until(ExpectedConditions.visibilityOf(text));
+		waitForElement(text);
 		String actualText=driver.findElement(By.tagName("a")).getText();
 		return actualText;
 		
@@ -82,6 +79,7 @@ public class Registration {
 	public void skipBtn() {
 		
 		skipBtn.click();
+	
 		
 	}
 	
