@@ -1,5 +1,6 @@
 package pom;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import abstract_components.WebDriverwait;
 
@@ -61,7 +63,34 @@ public class Search_prod extends WebDriverwait {
 //	}
 
 	public List<String> products(String Prods) throws InterruptedException {
-	 //Thread.sleep(20000);
+	 
+		 WebDriverWait wait =
+		            new WebDriverWait(driver, Duration.ofSeconds(30));
+
+		    wait.until(driver -> {
+
+		        List<WebElement> elements =
+		                driver.findElements(
+		                    By.xpath("//h3[@class='t4s-product-title']/child::a")
+		                );
+
+		        for (WebElement element : elements) {
+
+		            if (element.isDisplayed()) {
+
+		                String text = element.getText();
+
+		                if (text.toLowerCase()
+		                        .contains(Prods.toLowerCase())) {
+
+		                    return true;
+		                }
+		            }
+		        }
+
+		        return false;
+		    });
+		
 		 List<String> names = new ArrayList<>();
 
 		    for (WebElement product : prods) {
