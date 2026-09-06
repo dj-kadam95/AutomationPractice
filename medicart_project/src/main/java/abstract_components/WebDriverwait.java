@@ -22,8 +22,8 @@ public class WebDriverwait {
 	    @FindBy(tagName="a")
 		WebElement text;
 	    
-	    @FindBy(tagName="(//input[@name='q'])[1]")
-		WebElement serach;
+	    @FindBy(tagName="//input[@placeholder='Search for products']")
+		WebElement search;
 
 	    public void waitForElement(WebElement locator) {
 	        WebDriverWait wait =
@@ -33,7 +33,7 @@ public class WebDriverwait {
 	    }
 	    public void waitForElementToBeClickable(WebElement locator) {
 	        WebDriverWait wait =
-	            new WebDriverWait(driver, Duration.ofSeconds(60));
+	            new WebDriverWait(driver, Duration.ofSeconds(15));
 
 	        wait.until(ExpectedConditions.elementToBeClickable(locator));
 	    }

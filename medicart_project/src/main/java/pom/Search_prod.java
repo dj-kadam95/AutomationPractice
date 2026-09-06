@@ -20,7 +20,7 @@ public class Search_prod extends WebDriverwait {
 		
 	}
 
-	@FindBy(xpath="(//input[@name='q'])[1]")
+	@FindBy(xpath="//input[@placeholder='Search for products']")
 	WebElement search_prod;
 	
 	@FindBy(xpath="//button[@class='t4s-search-header__submit']") 
