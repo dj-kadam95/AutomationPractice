@@ -22,7 +22,7 @@ public class WebDriverwait {
 	    @FindBy(tagName="a")
 		WebElement text;
 	    
-	    @FindBy(tagName="//input[@placeholder='Search for products']")
+	    @FindBy(tagName="//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
 		WebElement search;
 
 	    public void waitForElement(WebElement locator) {

@@ -28,3 +28,21 @@
 1:56:49 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 1:56:49 Microsoft.Browser_Removed
 1:56:49 Widget Closed: WebView2MinimalFrame
+2:00:32 Tab43 StartNav349 #typed
+2:00:32 Tab43 FinishNav349
+2:00:32 Tab43 PageLoad
+2:00:36 Tab43 StartNav350 #typed
+2:00:36 Tab43 FinishNav350
+2:00:36 Tab43 PageLoad
+2:00:40 Tab43 StartNav351 #typed
+2:00:40 Tab43 FinishNav351
+2:00:40 Tab43 PageLoad
+2:00:43 Tab43 StartNav352 #typed
+2:00:43 Tab43 FinishNav352
+2:00:43 Tab43 PageLoad
+2:00:56 Tab36 StartNav353 #typed
+2:00:56 Tab36 FinishNav353
+2:00:56 Tab36 PageLoad
+2:01:04 Tab43 StartNav354 #typed
+2:01:04 Tab43 FinishNav354
+2:01:04 Tab43 PageLoad

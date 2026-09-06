@@ -24,7 +24,7 @@ public class Search_prod extends WebDriverwait {
 		
 	}
 
-	@FindBy(xpath="//input[@placeholder='Search for products']")
+	@FindBy(xpath="//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
 	WebElement search_prod;
 	
 	@FindBy(xpath="//button[@class='t4s-search-header__submit']") 
@@ -39,7 +39,7 @@ public class Search_prod extends WebDriverwait {
 
 		    WebElement searchBox = wait.until(
 		            ExpectedConditions.visibilityOfElementLocated(
-		                    By.xpath("//input[@placeholder='Search for products']")
+		                    By.xpath("//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
 		            )
 		    );
 
