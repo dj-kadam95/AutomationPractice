@@ -62,19 +62,22 @@ public class Search_prod extends WebDriverwait {
 
 	public List<String> products(String Prods) throws InterruptedException {
 	 //Thread.sleep(20000);
-		 waitForAtLeastOneElement(productLocator);
-		int prodCount = prods.size();
-		List<String> names = new ArrayList<>();
-		for (int i = 0; i < prodCount; i++) {
+		 List<String> names = new ArrayList<>();
 
-			String prodName = prods.get(i).getText();
-			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
+		    for (WebElement product : prods) {
 
-				// System.out.println(prodName);
-				names.add(prodName);
-			}
+		        if (product.isDisplayed()) {
 
+		            String prodName = product.getText();
+
+		            if (prodName.toLowerCase()
+		                    .contains(Prods.toLowerCase())) {
+
+		                names.add(prodName);
+		            }
+		        }
+		    }
+
+		    return names;
 		}
-		return names;
-	}
 }
