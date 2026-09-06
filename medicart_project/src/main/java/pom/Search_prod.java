@@ -1,11 +1,15 @@
 package pom;
 
+import java.time.Duration;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import abstract_components.WebDriverwait;
 
@@ -30,9 +34,20 @@ public class Search_prod extends WebDriverwait {
 	List<WebElement> prods;
 	
 	public void searchProd(String prod) {
-		waitForElementToBeClickable(search_prod);
-		search_prod.click();
-		search_prod.sendKeys(prod);
+		 WebDriverWait wait =
+		            new WebDriverWait(driver, Duration.ofSeconds(20));
+
+		    WebElement searchBox = wait.until(
+		            ExpectedConditions.visibilityOfElementLocated(
+		                    By.xpath("//input[@placeholder='Search for products']")
+		            )
+		    );
+
+		    wait.until(
+		            ExpectedConditions.elementToBeClickable(searchBox)
+		    );
+		searchBox.click();
+		searchBox.sendKeys(prod);
 		searchBtn.click();
 	}
 	
