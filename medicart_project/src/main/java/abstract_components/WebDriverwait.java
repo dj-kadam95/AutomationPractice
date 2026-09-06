@@ -25,9 +25,6 @@ public class WebDriverwait {
 	    
 	    @FindBy(tagName="//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
 		WebElement searchBox;
-	    
-	    @FindBy(xpath="//h3[@class='t4s-product-title']/child::a")
-		List<WebElement> prods;
 
 	    public void waitForElement(WebElement locator) {
 	        WebDriverWait wait =
@@ -43,10 +40,13 @@ public class WebDriverwait {
 	    }
 	    
 	    public void waitForElement1(List<WebElement> prods) {
+
 	        WebDriverWait wait =
 	            new WebDriverWait(driver, Duration.ofSeconds(30));
 
-	        wait.until(ExpectedConditions.visibilityOfAllElements(prods));
+	        wait.until(
+	            ExpectedConditions.visibilityOfAllElements(prods)
+	        );
 	    }
 	}
 

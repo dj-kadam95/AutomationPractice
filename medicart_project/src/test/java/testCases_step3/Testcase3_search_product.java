@@ -25,9 +25,9 @@ public class Testcase3_search_product extends Base_class_step1 {
 		List<String> expectedProducts = Arrays.asList(expectedProds);
 		System.out.println(expectedProducts);
 
-		boolean found = false;
 
 		for (String expected : expectedProds) {
+			boolean found = false;
 			for (String actual : prods) {
 				if (actual.toLowerCase().contains(expected.toLowerCase())) {
 					found = true;
