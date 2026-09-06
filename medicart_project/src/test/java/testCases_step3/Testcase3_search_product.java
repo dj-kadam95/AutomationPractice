@@ -1,6 +1,5 @@
 package testCases_step3;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,11 +13,11 @@ import test_components.Base_class_step1;
 public class Testcase3_search_product extends Base_class_step1 {
 
 	@Test(groups = "regression")
-	public void searchProduct() {
+	public void searchProduct() throws InterruptedException {
 		Registration LP = url.goToURL();
 		Search_prod sp = LP.search();
+		Thread.sleep(2000);
 		sp.searchProd("Tynor knee");
-		// Thread.sleep(2000);
 		String prods[] = sp.products("TYNOR");
 		System.out.println(prods.length);
 		List<String> actualProducts = Arrays.asList(prods);
