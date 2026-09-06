@@ -44,6 +44,7 @@ public class Search_prod extends WebDriverwait {
 //	String names[] = new String[5];
 
 	public void prods1(String Prods) {
+		waitForElement1(prods);
 		for (int i = 0; i < prods.size(); i++) {
 
 			String prodName = prods.get(i).getText();
@@ -56,6 +57,7 @@ public class Search_prod extends WebDriverwait {
 	}
 
 	public List<String> products(String Prods) {
+		waitForElement1(prods);
 		int prodCount = prods.size();
 		List<String> names = new ArrayList<>();
 		for (int i = 0; i < prodCount; i++) {

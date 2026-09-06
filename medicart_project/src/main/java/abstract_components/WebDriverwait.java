@@ -42,7 +42,7 @@ public class WebDriverwait {
 	        wait.until(ExpectedConditions.elementToBeClickable(locator));
 	    }
 	    
-	    public void waitForElement(List<WebElement> prods) {
+	    public void waitForElement1(List<WebElement> prods) {
 	        WebDriverWait wait =
 	            new WebDriverWait(driver, Duration.ofSeconds(10));
 
