@@ -1,6 +1,5 @@
 package pom;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,7 +8,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import abstract_components.WebDriverwait;
 
@@ -33,9 +31,8 @@ public class Search_prod extends WebDriverwait {
 
 	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a")
 	List<WebElement> prods;
-	
-	By productLocator =
-	        By.xpath("//h3[@class='t4s-product-title']/child::a");
+
+	By productLocator = By.xpath("//h3[@class='t4s-product-title']/child::a");
 
 	public void searchProd(String prod) {
 
@@ -62,51 +59,23 @@ public class Search_prod extends WebDriverwait {
 //
 //	}
 
-	public List<String> products(String Prods) throws InterruptedException {
-	 
-		 WebDriverWait wait =
-		            new WebDriverWait(driver, Duration.ofSeconds(30));
+	public List<String> products(String Prods) {
 
-		    wait.until(driver -> {
+		List<String> names = new ArrayList<>();
 
-		        List<WebElement> elements =
-		                driver.findElements(
-		                    By.xpath("//h3[@class='t4s-product-title']/child::a")
-		                );
+		for (WebElement product : prods) {
 
-		        for (WebElement element : elements) {
+			if (product.isDisplayed()) {
 
-		            if (element.isDisplayed()) {
+				String prodName = product.getText();
 
-		                String text = element.getText();
+				if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
 
-		                if (text.toLowerCase()
-		                        .contains(Prods.toLowerCase())) {
-
-		                    return true;
-		                }
-		            }
-		        }
-
-		        return false;
-		    });
-		
-		 List<String> names = new ArrayList<>();
-
-		    for (WebElement product : prods) {
-
-		        if (product.isDisplayed()) {
-
-		            String prodName = product.getText();
-
-		            if (prodName.toLowerCase()
-		                    .contains(Prods.toLowerCase())) {
-
-		                names.add(prodName);
-		            }
-		        }
-		    }
-
-		    return names;
+					names.add(prodName);
+				}
+			}
 		}
+
+		return names;
+	}
 }
