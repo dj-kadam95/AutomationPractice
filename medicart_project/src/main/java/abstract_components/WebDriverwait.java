@@ -1,6 +1,7 @@
 package abstract_components;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -24,6 +25,9 @@ public class WebDriverwait {
 	    
 	    @FindBy(tagName="//input[@class='t4s-search-header__input t4s-input__currentcolor'] ")
 		WebElement searchBox;
+	    
+	    @FindBy(xpath="//h3[@class='t4s-product-title']/child::a")
+		List<WebElement> prods;
 
 	    public void waitForElement(WebElement locator) {
 	        WebDriverWait wait =
@@ -36,6 +40,13 @@ public class WebDriverwait {
 	            new WebDriverWait(driver, Duration.ofSeconds(15));
 
 	        wait.until(ExpectedConditions.elementToBeClickable(locator));
+	    }
+	    
+	    public void waitForElement(List<WebElement> prods) {
+	        WebDriverWait wait =
+	            new WebDriverWait(driver, Duration.ofSeconds(10));
+
+	        wait.until(ExpectedConditions.visibilityOfAllElements(prods));
 	    }
 	}
 

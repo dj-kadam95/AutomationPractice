@@ -16,21 +16,19 @@ public class Testcase3_search_product extends Base_class_step1 {
 	public void searchProduct() throws InterruptedException {
 		Registration LP = url.goToURL();
 		Search_prod sp = LP.search();
-		sp.searchProd("Tynor knee");
-		String prods[] = sp.products("TYNOR");
-		System.out.println(prods.length);
-		List<String> actualProducts = Arrays.asList(prods);
-		System.out.println(actualProducts);
+		//sp.searchProd("Tynor knee");
+		sp.prods1("Medikart");
+		List<String> prods = sp.products("Medikart");
+		System.out.println(prods);
 
-		String expectedProds[] = { "TYNOR Knee Support Hinged (Neoprene), for Joint Stability & Pain Relief",
-				"TYNOR Knee Immobiliser 19" };
+		String expectedProds[] = {"Medikart Compressor Nebulizer MK NE-C05", "Medikart Portable Mesh Nebulizer"};
 		List<String> expectedProducts = Arrays.asList(expectedProds);
 		System.out.println(expectedProducts);
 
 		boolean found = false;
 
 		for (String expected : expectedProds) {
-			for (String actual : actualProducts) {
+			for (String actual : prods) {
 				if (actual.toLowerCase().contains(expected.toLowerCase())) {
 					found = true;
 					break;

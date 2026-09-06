@@ -6,8 +6,8 @@
       <class name="testCases_step3.Testcase3_search_product">
         <methods>
           <include name="launchApp"/>
-          <include name="tearDown"/>
           <include name="searchProduct"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testCases_step3.Testcase3_search_product -->
     </classes>
