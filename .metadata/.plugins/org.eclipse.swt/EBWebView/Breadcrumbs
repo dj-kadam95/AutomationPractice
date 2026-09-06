@@ -103,3 +103,33 @@
 3:49:47 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 3:49:47 Microsoft.Browser_Removed
 3:49:47 Widget Closed: WebView2MinimalFrame
+3:52:35 Microsoft.NewBrowser_Popup
+3:52:35 Microsoft.BrowserList.AddBrowser
+3:52:35 Browser82 Insert active Tab82 at 0
+3:52:35 Tab82 StartNav925 #auto_toplevel
+3:52:35 Tab82 StartNav926 #typed
+3:52:35 Tab82 FinishNav925
+3:52:35 Tab82 PageLoad
+3:52:35 Tab82 FinishNav926
+3:52:35 Tab82 PageLoad
+3:52:35 Tab82 StartNav927 #typed
+3:52:35 Tab82 FinishNav927
+3:52:35 Tab82 PageLoad
+3:52:39 Tab82 StartNav928 #typed
+3:52:39 Tab82 FinishNav928
+3:52:39 Tab82 PageLoad
+3:52:42 Tab82 StartNav929 #typed
+3:52:42 Tab82 FinishNav929
+3:52:42 Tab82 PageLoad
+3:52:44 Tab82 StartNav930 #typed
+3:52:44 Tab82 FinishNav930
+3:52:44 Tab82 PageLoad
+3:52:45 Tab82 StartNav931 #typed
+3:52:45 Tab82 FinishNav931
+3:52:45 Tab82 PageLoad
+3:52:47 Tab82 StartNav932 #typed
+3:52:47 Tab82 FinishNav932
+3:52:47 Tab82 PageLoad
+3:52:49 Tab82 StartNav933 #typed
+3:52:49 Tab82 FinishNav933
+3:52:49 Tab82 PageLoad

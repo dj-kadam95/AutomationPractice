@@ -47,18 +47,18 @@ public class Search_prod extends WebDriverwait {
 
 //	String names[] = new String[5];
 
-	public void prods1(String Prods) throws InterruptedException {
-		 waitForAtLeastOneElement(productLocator);
-		for (int i = 0; i < prods.size(); i++) {
-
-			String prodName = prods.get(i).getText();
-			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
-				System.out.println(prodName);
-
-			}
-		}
-
-	}
+//	public void prods1(String Prods) throws InterruptedException {
+//		 waitForAtLeastOneElement(productLocator);
+//		for (int i = 0; i < prods.size(); i++) {
+//
+//			String prodName = prods.get(i).getText();
+//			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
+//				System.out.println(prodName);
+//
+//			}
+//		}
+//
+//	}
 
 	public List<String> products(String Prods) throws InterruptedException {
 	 //Thread.sleep(20000);

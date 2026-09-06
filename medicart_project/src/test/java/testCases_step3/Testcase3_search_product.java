@@ -17,7 +17,7 @@ public class Testcase3_search_product extends Base_class_step1 {
 		Registration LP = url.goToURL();
 		Search_prod sp = LP.search();
 		//sp.searchProd("Tynor knee");
-		sp.prods1("Medikart");
+		//sp.prods1("Medikart");
 		List<String> prods = sp.products("Medikart");
 		System.out.println(prods);
 
