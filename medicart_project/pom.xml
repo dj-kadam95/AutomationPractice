@@ -68,8 +68,8 @@
 				<version>3.2.3</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>captcha.xml</suiteXmlFile>
-						<suiteXmlFile>regression.xml</suiteXmlFile>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+						
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
