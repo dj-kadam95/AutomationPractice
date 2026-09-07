@@ -17,7 +17,7 @@ public class Testcase3_search_product extends Base_class_step1 {
 	public void searchProduct() throws InterruptedException {
 		A_registration LP = url.goToURL();
 		C_search_prod sp = LP.search();
-		//sp.searchProd("Tynor knee");
+		sp.searchProd("Tynor knee");
 		//sp.prods1("Medikart");
 		List<String> prods = sp.products("Medikart");
 		System.out.println(prods);
