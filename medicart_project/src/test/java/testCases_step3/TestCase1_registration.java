@@ -15,14 +15,14 @@ import test_components.Base_class_step1;
 
 public class TestCase1_registration extends Base_class_step1 {
 
-	@Test(dataProvider = "Data",priority = 1)
+	@Test(dataProvider = "Data", priority = 1,groups="captcha")
 	public void registration(String name, String Lname, String id, String PW, String text) throws InterruptedException {
 		A_registration LP = url.goToURL();
 		LP.loginBtn();
 		LP.createAcBtn();
 		LP.register(name, Lname, id, PW);
-		String actualText=LP.waitForElement();
-		String expectedText=text;
+		String actualText = LP.waitForElement();
+		String expectedText = text;
 		System.out.println(actualText);
 		System.out.println(expectedText);
 		Assert.assertEquals(actualText, expectedText);
@@ -40,9 +40,7 @@ public class TestCase1_registration extends Base_class_step1 {
 		for (int j = 0, i = 0, k = 1; j <= 4; j++) {
 
 			data[i][j] = sheet.getSheet("Register").getRow(k).getCell(j).getStringCellValue();
-
 		}
-
 		return data;
 	}
 }

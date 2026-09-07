@@ -30,7 +30,7 @@ public class D_Prod_to_card extends WebDriverwait {
 	@FindBy(xpath = "(//span[text()='CPAP Machine'])[2]/parent::*")
 	WebElement prod;
 //	@FindBy(xpath = "(//div[@class='t4s-coll-img t4s-pr'])[31]") 
-//    WebElement prod;
+//  WebElement prod;
 
 	@FindBy(xpath = "//div[@class='t4s-product-wrapper']/descendant::a[@class='is--href-replaced']")
 	List<WebElement> products;
@@ -39,13 +39,12 @@ public class D_Prod_to_card extends WebDriverwait {
 	List<WebElement> cartBtn;
 
 	public void selectProd() {
+
 		waitForElementToBeClickable(prod);
 
 		Point p1 = prod.getLocation();
-
-		//int x = p1.getX();
 		int y = p1.getY();
-		int y1=y-200;
+		int y1 = y - 200;
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		js.executeScript("window.scrollBy(0," + y1 + ")");
@@ -68,9 +67,6 @@ public class D_Prod_to_card extends WebDriverwait {
 				}
 			}
 		}
-
 		return names;
-
 	}
-
 }

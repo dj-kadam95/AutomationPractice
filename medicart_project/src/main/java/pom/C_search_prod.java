@@ -30,9 +30,6 @@ public class C_search_prod extends WebDriverwait {
 	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'FALCON')]")
 	List<WebElement> prods;
 
-	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'FALCON')]")
-	WebElement productLocator;
-
 	public void searchProd(String prod) {
 
 		waitForElement(searchBox);
@@ -46,30 +43,20 @@ public class C_search_prod extends WebDriverwait {
 	String names[] = new String[2];
 
 	public String[] prods1(String Prods) throws InterruptedException {
-		 
+
 		for (int i = 0; i < prods.size(); i++) {
 
 			String prodName = prods.get(i).getText();
 			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
-				names[i]=prodName;
+				names[i] = prodName;
 
 			}
 		}
-
 		return names;
 	}
 
 	public List<String> products(String Prods) {
 
-//		waitForAllElements(prods);
-//		Point p1 = productLocator.getLocation();
-//
-//		//int x = p1.getX();
-//		int y = p1.getY();
-//		int y1=y-200;
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//
-//		js.executeScript("window.scrollBy(0," + y1 + ")");
 		List<String> names = new ArrayList<>();
 
 		for (WebElement product : prods) {
@@ -84,7 +71,6 @@ public class C_search_prod extends WebDriverwait {
 				}
 			}
 		}
-
 		return names;
 	}
 }

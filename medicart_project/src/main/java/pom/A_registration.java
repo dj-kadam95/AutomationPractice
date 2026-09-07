@@ -66,30 +66,26 @@ public class A_registration extends WebDriverwait {
 		mail.sendKeys(id);
 		pw.sendKeys(PW);
 		registerBtn.click();
-
 	}
 
 	public String waitForElement() {
 		waitForElement(text);
 		String actualText = driver.findElement(By.tagName("a")).getText();
 		return actualText;
-
 	}
 
 	public void skipBtn() {
 
 		skipBtn.click();
-
 	}
 
 	public C_search_prod search() {
 		C_search_prod sp = new C_search_prod(driver);
 		return sp;
 	}
-	
+
 	public D_Prod_to_card cartProd() {
 		D_Prod_to_card cartProd = new D_Prod_to_card(driver);
 		return cartProd;
 	}
-
 }

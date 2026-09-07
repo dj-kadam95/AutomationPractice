@@ -15,15 +15,15 @@ import pom.B_login;
 import test_components.Base_class_step1;
 
 public class TestCase2_login extends Base_class_step1 {
-	
-	@Test(dataProvider = "Data", priority = 2)
+
+	@Test(dataProvider = "Data", priority = 2, groups = "captcha")
 	public void login(String id, String PW, String text) {
 
 		A_registration LP = url.goToURL();
 		B_login login = LP.loginBtn();
 		login.login(id, PW);
-		String actualText=login.waitForElement();
-		String expectedText=text;
+		String actualText = login.waitForElement();
+		String expectedText = text;
 		System.out.println(actualText);
 		System.out.println(expectedText);
 		Assert.assertEquals(actualText, expectedText);
@@ -42,9 +42,7 @@ public class TestCase2_login extends Base_class_step1 {
 		for (int j = 0, i = 0, k = 1; j <= 2; j++) {
 
 			data[i][j] = sheet.getSheet("Login").getRow(k).getCell(j).getStringCellValue();
-
 		}
-
 		return data;
 	}
 }
