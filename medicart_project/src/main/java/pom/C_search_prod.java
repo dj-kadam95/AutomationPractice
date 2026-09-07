@@ -2,8 +2,8 @@ package pom;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,7 +32,8 @@ public class C_search_prod extends WebDriverwait {
 	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a")
 	List<WebElement> prods;
 
-	By productLocator = By.xpath("//h3[@class='t4s-product-title']/child::a");
+	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a")
+	WebElement productLocator;
 
 	public void searchProd(String prod) {
 
@@ -61,6 +62,15 @@ public class C_search_prod extends WebDriverwait {
 
 	public List<String> products(String Prods) {
 
+		waitForAllElements(prods);
+		Point p1 = productLocator.getLocation();
+
+		//int x = p1.getX();
+		int y = p1.getY();
+		int y1=y-200;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		js.executeScript("window.scrollBy(0," + y1 + ")");
 		List<String> names = new ArrayList<>();
 
 		for (WebElement product : prods) {

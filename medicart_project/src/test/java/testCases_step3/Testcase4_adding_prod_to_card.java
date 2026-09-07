@@ -10,7 +10,7 @@ import test_components.Base_class_step1;
 
 public class Testcase4_adding_prod_to_card extends Base_class_step1 {
 	
-	@Test(groups ="regression")
+	@Test
 	public void addProdToCart() {
 		
 		A_registration LP = url.goToURL();
