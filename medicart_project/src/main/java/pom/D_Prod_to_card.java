@@ -3,8 +3,8 @@ package pom;
 import java.util.ArrayList;
 import java.util.List;
 
-//import org.openqa.selenium.JavascriptExecutor;
-//import org.openqa.selenium.Point;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,14 +37,14 @@ public class D_Prod_to_card extends WebDriverwait {
 	public void selectProd() {
 		waitForElement(prod);
 
-//		Point p1 = prod.getLocation();
-//
-//		//int x = p1.getX();
-//		int y = p1.getY();
-//		int y1=y-200;
-//		JavascriptExecutor js = (JavascriptExecutor) driver;
-//
-//		js.executeScript("window.scrollBy(0," + y1 + ")");
+		Point p1 = prod.getLocation();
+
+		//int x = p1.getX();
+		int y = p1.getY();
+		int y1=y-200;
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		js.executeScript("window.scrollBy(0," + y1 + ")");
 		prod.click();
 	}
 

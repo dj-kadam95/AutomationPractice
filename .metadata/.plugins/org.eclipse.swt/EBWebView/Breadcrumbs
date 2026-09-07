@@ -107,3 +107,15 @@
 8:41:40 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 8:41:40 Microsoft.Browser_Removed
 8:41:40 Widget Closed: WebView2MinimalFrame
+8:44:11 Microsoft.NewBrowser_Popup
+8:44:11 Microsoft.BrowserList.AddBrowser
+8:44:11 Browser14 Insert active Tab14 at 0
+8:44:11 Tab14 StartNav184 #auto_toplevel
+8:44:11 Tab14 StartNav185 #typed
+8:44:11 Tab14 FinishNav184
+8:44:11 Tab14 PageLoad
+8:44:11 Tab14 FinishNav185
+8:44:11 Tab14 PageLoad
+8:44:12 Tab14 StartNav186 #typed
+8:44:12 Tab14 FinishNav186
+8:44:12 Tab14 PageLoad
