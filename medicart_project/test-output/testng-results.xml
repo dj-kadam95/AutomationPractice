@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-07T21:49:22 IST" name="Default suite" finished-at="2026-09-07T21:49:28 IST" duration-ms="6241">
+  <suite started-at="2026-09-07T22:08:39 IST" name="Default suite" finished-at="2026-09-07T22:08:44 IST" duration-ms="4811">
     <groups>
       <group name="regression">
         <method signature="Testcase3_search_product.searchProduct()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" name="searchProduct" class="testCases_step3.Testcase3_search_product"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2026-09-07T21:49:22 IST" name="Default test" finished-at="2026-09-07T21:49:28 IST" duration-ms="6241">
+    <test started-at="2026-09-07T22:08:39 IST" name="Default test" finished-at="2026-09-07T22:08:44 IST" duration-ms="4811">
       <class name="testCases_step3.Testcase3_search_product">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T21:49:22 IST" name="launchApp" finished-at="2026-09-07T21:49:23 IST" duration-ms="1316" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T22:08:39 IST" name="launchApp" finished-at="2026-09-07T22:08:41 IST" duration-ms="1151" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="searchProduct()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T21:49:23 IST" name="searchProduct" finished-at="2026-09-07T21:49:28 IST" duration-ms="4483" status="PASS">
+        <test-method signature="searchProduct()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T22:08:41 IST" name="searchProduct" finished-at="2026-09-07T22:08:44 IST" duration-ms="3424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T21:49:28 IST" name="tearDown" finished-at="2026-09-07T21:49:28 IST" duration-ms="378" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T22:08:44 IST" name="tearDown" finished-at="2026-09-07T22:08:44 IST" duration-ms="195" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

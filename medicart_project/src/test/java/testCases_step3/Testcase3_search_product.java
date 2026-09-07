@@ -18,25 +18,29 @@ public class Testcase3_search_product extends Base_class_step1 {
 		A_registration LP = url.goToURL();
 		C_search_prod sp = LP.search();
 		//sp.searchProd("Tynor knee");
-		sp.prods1("FALCON");
-		List<String> prods = sp.products("FALCON");
-		System.out.println(prods);
+		String prodsArray[]= sp.prods1("FALCON");
+		List<String> prods1=Arrays.asList(prodsArray);
+		System.out.println(prods1);
+		List<String> prods2 = sp.products("FALCON");
+		System.out.println(prods2);
+		
+		Assert.assertEquals(prods1, prods2);
 
-		String expectedProds[] = {"FALCON-4002B, FALCON-4002A"};
+		String expectedProds[] = {"FALCON-4002B", "FALCON-4002A"};
 		List<String> expectedProducts = Arrays.asList(expectedProds);
 		System.out.println(expectedProducts);
 
 
 		for (String expected : expectedProds) {
 			boolean found = false;
-			for (String actual : prods) {
+			for (String actual : prods2) {
 				if (actual.toLowerCase().contains(expected.toLowerCase())) {
 					found = true;
 					break;
 				}
 
 			}
-			Assert.assertFalse(found);
+			Assert.assertTrue(found);
 		}
 
 	}

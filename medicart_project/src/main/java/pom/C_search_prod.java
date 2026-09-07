@@ -2,8 +2,6 @@ package pom;
 
 import java.util.ArrayList;
 import java.util.List;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -45,32 +43,33 @@ public class C_search_prod extends WebDriverwait {
 		searchBtn.click();
 	}
 
-	String names[] = new String[5];
+	String names[] = new String[2];
 
-	public void prods1(String Prods) throws InterruptedException {
+	public String[] prods1(String Prods) throws InterruptedException {
 		 
 		for (int i = 0; i < prods.size(); i++) {
 
 			String prodName = prods.get(i).getText();
 			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
-				System.out.println(prodName);
+				names[i]=prodName;
 
 			}
 		}
 
+		return names;
 	}
 
 	public List<String> products(String Prods) {
 
-		waitForAllElements(prods);
-		Point p1 = productLocator.getLocation();
-
-		//int x = p1.getX();
-		int y = p1.getY();
-		int y1=y-200;
-		JavascriptExecutor js = (JavascriptExecutor) driver;
-
-		js.executeScript("window.scrollBy(0," + y1 + ")");
+//		waitForAllElements(prods);
+//		Point p1 = productLocator.getLocation();
+//
+//		//int x = p1.getX();
+//		int y = p1.getY();
+//		int y1=y-200;
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//
+//		js.executeScript("window.scrollBy(0," + y1 + ")");
 		List<String> names = new ArrayList<>();
 
 		for (WebElement product : prods) {
