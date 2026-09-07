@@ -79,3 +79,17 @@
 8:45:42 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 8:45:42 Microsoft.Browser_Removed
 8:45:42 Widget Closed: WebView2MinimalFrame
+8:58:41 Memory Pressure: Moderate
+8:58:51 Memory Pressure: None
+8:59:12 Microsoft.NewBrowser_Popup
+8:59:12 Microsoft.BrowserList.AddBrowser
+8:59:12 Browser15 Insert active Tab15 at 0
+8:59:12 Tab15 StartNav200 #auto_toplevel
+8:59:12 Tab15 StartNav201 #typed
+8:59:12 Tab15 FinishNav200
+8:59:12 Tab15 PageLoad
+8:59:12 Tab15 FinishNav201
+8:59:12 Tab15 PageLoad
+8:59:12 Tab15 StartNav202 #typed
+8:59:12 Tab15 FinishNav202
+8:59:12 Tab15 PageLoad
