@@ -24,7 +24,7 @@ public class WebDriverwait {
 	WebElement searchBox;
 
 	public void waitForElement(WebElement locator) {
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
 		wait.until(ExpectedConditions.visibilityOf(locator));
 	}

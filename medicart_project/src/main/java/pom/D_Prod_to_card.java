@@ -27,7 +27,7 @@ public class D_Prod_to_card extends WebDriverwait {
 //	WebElement prod;
 //	@FindBy(xpath = "(//span[text()='CPAP Machine'])[2]")(//a[@class='t4s-cat-title'])[31]
 //	WebElement prod;
-	@FindBy(xpath = "//a[@class='t4s-cat-title'])[31]")
+	@FindBy(xpath = "(//a[@class='t4s-cat-title'])[31]")
     WebElement prod;
 
 	@FindBy(xpath = "//div[@class='t4s-product-wrapper']/descendant::a[@class='is--href-replaced']")
