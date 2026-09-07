@@ -28,3 +28,39 @@
 0:07:16 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 0:07:16 Microsoft.Browser_Removed
 0:07:16 Widget Closed: WebView2MinimalFrame
+0:10:30 Microsoft.NewBrowser_Popup
+0:10:30 Microsoft.BrowserList.AddBrowser
+0:10:30 Browser6 Insert active Tab6 at 0
+0:10:30 Tab6 StartNav42 #auto_toplevel
+0:10:30 Tab6 StartNav43 #typed
+0:10:30 Tab6 FinishNav42
+0:10:30 Tab6 PageLoad
+0:10:30 Tab6 FinishNav43
+0:10:30 Tab6 PageLoad
+0:10:30 Tab6 StartNav44 #typed
+0:10:30 Tab6 FinishNav44
+0:10:30 Tab6 PageLoad
+0:11:03 Tab6 StartNav45 #typed
+0:11:03 Tab6 FinishNav45
+0:11:03 Tab6 PageLoad
+0:11:06 Tab6 StartNav46 #typed
+0:11:06 Tab6 FinishNav46
+0:11:06 Tab6 PageLoad
+0:11:07 Tab6 StartNav47 #typed
+0:11:07 Tab6 FinishNav47
+0:11:07 Tab6 PageLoad
+0:11:24 Tab6 StartNav48 #typed
+0:11:24 Tab6 FinishNav48
+0:11:24 Tab6 PageLoad
+0:11:25 Tab6 StartNav49 #typed
+0:11:25 Tab6 FinishNav49
+0:11:25 Tab6 PageLoad
+0:11:26 Tab6 StartNav50 #typed
+0:11:26 Tab6 FinishNav50
+0:11:26 Tab6 PageLoad
+0:11:31 Tab6 StartNav51 #typed
+0:11:31 Tab6 FinishNav51
+0:11:31 Tab6 PageLoad
+0:11:35 Tab6 StartNav52 #typed
+0:11:35 Tab6 FinishNav52
+0:11:35 Tab6 PageLoad

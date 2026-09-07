@@ -8,12 +8,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class D_Prod_to_card {
+import abstract_components.WebDriverwait;
+
+public class D_Prod_to_card extends WebDriverwait {
 	
 	WebDriver driver;
 
 	public D_Prod_to_card(WebDriver driver) {
 		// TODO Auto-generated constructor stub
+		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
 	}
@@ -28,6 +31,7 @@ public class D_Prod_to_card {
 	List<WebElement> cartBtn;
 	
 	public void selectProd() {
+		waitForElement(prod);
 		prod.click();
 	}
 	
