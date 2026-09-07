@@ -11,6 +11,7 @@
      <class name="testCases_step3.TestCase1_registration"/>
       <class name="testCases_step3.TestCase2_login"/>
       <class name="testCases_step3.Testcase3_search_product"/>
+       <class name="testCases_step3.Testcase4_adding_prod_to_card"/>
      
     </classes>
   </test> <!-- Test -->

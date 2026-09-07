@@ -9,8 +9,9 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pom.Login;
-import pom.Registration;
+
+import pom.A_registration;
+import pom.B_login;
 import test_components.Base_class_step1;
 
 public class TestCase2_login extends Base_class_step1 {
@@ -18,8 +19,8 @@ public class TestCase2_login extends Base_class_step1 {
 	@Test(dataProvider = "Data", priority = 2, groups="captcha")
 	public void login(String id, String PW, String text) {
 
-		Registration LP = url.goToURL();
-		Login login = LP.loginBtn();
+		A_registration LP = url.goToURL();
+		B_login login = LP.loginBtn();
 		login.login(id, PW);
 		String actualText=login.waitForElement();
 		String expectedText=text;

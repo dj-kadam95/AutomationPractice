@@ -2,7 +2,8 @@ package abstract_components;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
-import pom.Registration;
+
+import pom.A_registration;
 
 public class URL_step2 {
 
@@ -15,9 +16,9 @@ public class URL_step2 {
 		
 	}
 	
-	public Registration goToURL() {
+	public A_registration goToURL() {
 		driver.get("https://medikart.co.in/");
-		Registration LP = new Registration(driver);
+		A_registration LP = new A_registration(driver);
 		return LP;
 	}
 }

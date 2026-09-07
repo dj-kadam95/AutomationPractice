@@ -11,11 +11,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import abstract_components.WebDriverwait;
 
-public class Search_prod extends WebDriverwait {
+public class C_search_prod extends WebDriverwait {
 
 	WebDriver driver;
 
-	public Search_prod(WebDriver driver) {
+	public C_search_prod(WebDriver driver) {
 		super(driver);
 		// TODO Auto-generated constructor stub
 		this.driver = driver;

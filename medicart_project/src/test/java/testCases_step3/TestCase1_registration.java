@@ -9,14 +9,15 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pom.Registration;
+
+import pom.A_registration;
 import test_components.Base_class_step1;
 
 public class TestCase1_registration extends Base_class_step1 {
 
 	@Test(dataProvider = "Data",priority = 1, groups="captcha")
 	public void registration(String name, String Lname, String id, String PW, String text) throws InterruptedException {
-		Registration LP = url.goToURL();
+		A_registration LP = url.goToURL();
 		LP.loginBtn();
 		LP.createAcBtn();
 		LP.register(name, Lname, id, PW);

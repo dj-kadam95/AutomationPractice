@@ -10,11 +10,11 @@ import org.openqa.selenium.support.PageFactory;
 import abstract_components.WebDriverwait;
 
 
-public class Login extends WebDriverwait {
+public class B_login extends WebDriverwait {
 
 	WebDriver driver;
 	
-	public Login(WebDriver driver) {
+	public B_login(WebDriver driver) {
 		super(driver);
 		this.driver=driver;
 		PageFactory.initElements(driver, this);
