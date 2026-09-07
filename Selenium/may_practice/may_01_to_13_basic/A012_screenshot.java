@@ -18,8 +18,9 @@ public class A012_screenshot {
 		// TODO Auto-generated method stub
 		
 		EdgeDriver driver = new EdgeDriver();
-		driver.get("https://www.amazon.in/");
-		WebElement about = driver.findElement(By.xpath("//a[@class='nav_a'][1]"));
+		driver.get("https://medikart.co.in/");
+		Thread.sleep(10000);
+		WebElement about = driver.findElement(By.xpath("(//span[text()='CPAP Machine'])[2]"));
 		Point p1 = about.getLocation();
 		
 		int x= p1.getX();
