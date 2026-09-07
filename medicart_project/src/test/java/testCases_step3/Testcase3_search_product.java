@@ -17,12 +17,12 @@ public class Testcase3_search_product extends Base_class_step1 {
 	public void searchProduct() throws InterruptedException {
 		A_registration LP = url.goToURL();
 		C_search_prod sp = LP.search();
-		sp.searchProd("Tynor knee");
-		//sp.prods1("Medikart");
-		List<String> prods = sp.products("Medikart");
+		//sp.searchProd("Tynor knee");
+		sp.prods1("FALCON");
+		List<String> prods = sp.products("FALCON");
 		System.out.println(prods);
 
-		String expectedProds[] = {"Medikart Compressor Nebulizer MK NE-C05"};
+		String expectedProds[] = {"FALCON-4002B, FALCON-4002A"};
 		List<String> expectedProducts = Arrays.asList(expectedProds);
 		System.out.println(expectedProducts);
 

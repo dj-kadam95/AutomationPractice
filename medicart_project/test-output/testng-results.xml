@@ -2,27 +2,27 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-09-07T20:42:14 IST" name="Default suite" finished-at="2026-09-07T20:42:22 IST" duration-ms="8030">
+  <suite started-at="2026-09-07T21:49:22 IST" name="Default suite" finished-at="2026-09-07T21:49:28 IST" duration-ms="6241">
     <groups>
       <group name="regression">
-        <method signature="Testcase4_adding_prod_to_card.addProdToCart()[pri:0, instance:testCases_step3.Testcase4_adding_prod_to_card@4c39bec8]" name="addProdToCart" class="testCases_step3.Testcase4_adding_prod_to_card"/>
+        <method signature="Testcase3_search_product.searchProduct()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" name="searchProduct" class="testCases_step3.Testcase3_search_product"/>
       </group> <!-- regression -->
     </groups>
-    <test started-at="2026-09-07T20:42:14 IST" name="Default test" finished-at="2026-09-07T20:42:22 IST" duration-ms="8030">
-      <class name="testCases_step3.Testcase4_adding_prod_to_card">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.Testcase4_adding_prod_to_card@4c39bec8]" started-at="2026-09-07T20:42:14 IST" name="launchApp" finished-at="2026-09-07T20:42:15 IST" duration-ms="1225" status="PASS">
+    <test started-at="2026-09-07T21:49:22 IST" name="Default test" finished-at="2026-09-07T21:49:28 IST" duration-ms="6241">
+      <class name="testCases_step3.Testcase3_search_product">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T21:49:22 IST" name="launchApp" finished-at="2026-09-07T21:49:23 IST" duration-ms="1316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="addProdToCart()[pri:0, instance:testCases_step3.Testcase4_adding_prod_to_card@4c39bec8]" started-at="2026-09-07T20:42:15 IST" name="addProdToCart" finished-at="2026-09-07T20:42:21 IST" duration-ms="6512" status="PASS">
+        <test-method signature="searchProduct()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T21:49:23 IST" name="searchProduct" finished-at="2026-09-07T21:49:28 IST" duration-ms="4483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProdToCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.Testcase4_adding_prod_to_card@4c39bec8]" started-at="2026-09-07T20:42:21 IST" name="tearDown" finished-at="2026-09-07T20:42:22 IST" duration-ms="248" status="PASS">
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases_step3.Testcase3_search_product@f79e]" started-at="2026-09-07T21:49:28 IST" name="tearDown" finished-at="2026-09-07T21:49:28 IST" duration-ms="378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases_step3.Testcase4_adding_prod_to_card -->
+      </class> <!-- testCases_step3.Testcase3_search_product -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

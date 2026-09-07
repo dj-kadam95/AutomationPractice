@@ -29,10 +29,10 @@ public class C_search_prod extends WebDriverwait {
 	@FindBy(xpath = "//button[@class='t4s-search-header__submit']")
 	WebElement searchBtn;
 
-	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'Medikart')]")
+	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'FALCON')]")
 	List<WebElement> prods;
 
-	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'Medikart')]")
+	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'FALCON')]")
 	WebElement productLocator;
 
 	public void searchProd(String prod) {
@@ -45,20 +45,20 @@ public class C_search_prod extends WebDriverwait {
 		searchBtn.click();
 	}
 
-//	String names[] = new String[5];
+	String names[] = new String[5];
 
-//	public void prods1(String Prods) throws InterruptedException {
-//		 waitForAtLeastOneElement(productLocator);
-//		for (int i = 0; i < prods.size(); i++) {
-//
-//			String prodName = prods.get(i).getText();
-//			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
-//				System.out.println(prodName);
-//
-//			}
-//		}
-//
-//	}
+	public void prods1(String Prods) throws InterruptedException {
+		 
+		for (int i = 0; i < prods.size(); i++) {
+
+			String prodName = prods.get(i).getText();
+			if (prodName.toLowerCase().contains(Prods.toLowerCase())) {
+				System.out.println(prodName);
+
+			}
+		}
+
+	}
 
 	public List<String> products(String Prods) {
 
