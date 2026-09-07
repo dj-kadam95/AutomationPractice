@@ -113,3 +113,27 @@
 0:12:19 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
 0:12:19 Microsoft.Browser_Removed
 0:12:19 Widget Closed: WebView2MinimalFrame
+0:16:08 Tab6 StartNav57 #typed
+0:16:08 Tab6 FinishNav57
+0:16:08 Tab6 PageLoad
+0:16:09 Tab6 StartNav58 #typed
+0:16:09 Tab6 FinishNav58
+0:16:09 Tab6 PageLoad
+0:16:10 Tab6 StartNav59 #typed
+0:16:10 Tab6 FinishNav59
+0:16:10 Tab6 PageLoad
+0:16:15 Tab6 StartNav60 #typed
+0:16:15 Tab6 FinishNav60
+0:16:15 Tab6 PageLoad
+0:16:19 Tab6 StartNav61 #typed
+0:16:19 Tab6 FinishNav61
+0:16:19 Tab6 PageLoad
+0:16:21 Tab6 StartNav62 #typed
+0:16:21 Tab6 FinishNav62
+0:16:21 Tab6 PageLoad
+0:16:28 Tab5 StartNav63 #typed
+0:16:28 Tab5 FinishNav63
+0:16:28 Tab5 PageLoad
+0:16:30 Tab5 StartNav64 #typed
+0:16:30 Tab5 FinishNav64
+0:16:30 Tab5 PageLoad

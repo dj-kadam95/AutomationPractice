@@ -16,7 +16,7 @@ import test_components.Base_class_step1;
 
 public class TestCase2_login extends Base_class_step1 {
 	
-	@Test(dataProvider = "Data", priority = 2, groups="captcha")
+	@Test(dataProvider = "Data", priority = 2)
 	public void login(String id, String PW, String text) {
 
 		A_registration LP = url.goToURL();
