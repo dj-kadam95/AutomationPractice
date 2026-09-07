@@ -23,7 +23,7 @@ public class C_search_prod extends WebDriverwait {
 
 	}
 
-	@FindBy(xpath = "//input[@class='t4s-search-header__input t4s-input__currentcolor']")
+	@FindBy(xpath = "//button[@class='t4s-search-header__submit']/preceding-sibling::*")
 	WebElement searchBox;
 
 	@FindBy(xpath = "//button[@class='t4s-search-header__submit']")
