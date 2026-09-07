@@ -29,10 +29,10 @@ public class C_search_prod extends WebDriverwait {
 	@FindBy(xpath = "//button[@class='t4s-search-header__submit']")
 	WebElement searchBtn;
 
-	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a")
+	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'Medikart')]")
 	List<WebElement> prods;
 
-	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a")
+	@FindBy(xpath = "//h3[@class='t4s-product-title']/child::a[contains(text(),'Medikart')]")
 	WebElement productLocator;
 
 	public void searchProd(String prod) {
