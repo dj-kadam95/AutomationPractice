@@ -29,14 +29,27 @@ public class D_Prod_to_card extends WebDriverwait {
 //	WebElement prod;
 	@FindBy(xpath = "(//span[text()='CPAP Machine'])[2]/parent::*")
 	WebElement prod;
-//	@FindBy(xpath = "(//div[@class='t4s-coll-img t4s-pr'])[31]") 
-//  WebElement prod;
 
 	@FindBy(xpath = "//div[@class='t4s-product-wrapper']/descendant::a[@class='is--href-replaced']")
 	List<WebElement> products;
 
 	@FindBy(xpath = "//div[@class='t4s-product-wrapper']/descendant::span[contains(text(), 'Add to cart')]")
 	List<WebElement> cartBtn;
+
+	@FindBy(xpath = "(//button[@class='t4s-drawer__close'])[1]")
+	WebElement cartClose;
+
+	@FindBy(xpath = "(//span[@class='t4s-pa t4s-op-0 t4s-ts-op t4s-count-box'])[2]")
+	WebElement cartboxcount;
+
+	@FindBy(xpath = "//span[@class='t4s-pr t4s-icon-cart__wrap']/parent::*")
+	WebElement cart;
+
+	@FindBy(xpath = "//input[@class='t4s-quantity-input']")
+	WebElement cartquanity;
+
+	@FindBy(xpath = "//div[@class='t4s-cart__totalPrice']")
+	WebElement cartTotal;
 
 	public void selectProd() {
 
@@ -51,7 +64,7 @@ public class D_Prod_to_card extends WebDriverwait {
 		prod.click();
 	}
 
-	public List<String> addToCart(String Prod) {
+	public List<String> getProds(String Prod) {
 
 		List<String> names = new ArrayList<>();
 
@@ -68,5 +81,50 @@ public class D_Prod_to_card extends WebDriverwait {
 			}
 		}
 		return names;
+	}
+
+	public void addToCart(String Prod) {
+
+		for (int i = 0; i < products.size(); i++) {
+
+			String prodName = products.get(i).getText();
+
+			if (prodName.toLowerCase().contains(Prod.toLowerCase())) {
+
+				cartBtn.get(i).click();
+				waitForElement(cartClose);
+				cartClose.click();
+				cartBtn.get(i).click();
+
+			}
+		}
+
+	}
+
+	public String cartBoxCount() {
+		cartClose.click();
+		String cartBox = cartboxcount.getText();
+		return cartBox;
+
+	}
+
+	public String cartQuantity() {
+
+		waitForElementToBeClickable(cart);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		js.executeScript("arguments[0].scrollIntoView({block:'center'});", cart);
+
+		cart.click();
+		String cartQuan = cartquanity.getDomAttribute("data-current-qty");
+		return cartQuan;
+
+	}
+
+	public String cartTotal() {
+
+		String carttotal = cartTotal.getText();
+		return carttotal;
+
 	}
 }
