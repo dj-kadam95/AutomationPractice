@@ -57,7 +57,7 @@ public class D_Prod_to_card extends WebDriverwait {
 
 		Point p1 = prod.getLocation();
 		int y = p1.getY();
-	//	int y1 = y - 200;
+		// int y1 = y - 200;
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		js.executeScript("window.scrollBy(0," + y + ")");
@@ -85,27 +85,22 @@ public class D_Prod_to_card extends WebDriverwait {
 
 	public void addToCart(String Prod) throws InterruptedException {
 
+		for (int i = 0; i < products.size(); i++) {
 
-				for (int i = 0; i < products.size(); i++) {
+			String prodName = products.get(i).getText();
 
-					String prodName = products.get(i).getText();
+			if (prodName.toLowerCase().contains(Prod.toLowerCase())) {
 
-					if (prodName.toLowerCase().contains(Prod.toLowerCase())) {
+				waitForElementToBeClickable(cartBtn.get(i));
+				cartBtn.get(i).click();
+				waitForElement(cartClose);
+				cartClose.click();
 
-						Thread.sleep(10);
-						cartBtn.get(i).click();
-						waitForElement(cartClose);
-						cartClose.click();
-						cartBtn.get(i).click();
-						waitForElement(cartClose);
-
-					}
-				}
+			}
+		}
 	}
 
 	public String cartBoxCount() {
-		
-		cartClose.click();
 		String cartBox = cartboxcount.getText();
 		return cartBox;
 
@@ -113,7 +108,7 @@ public class D_Prod_to_card extends WebDriverwait {
 
 	public String cartQuantity() {
 
-		waitForElementToBeClickable(cart);
+		waitForElement(cart);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 
 		js.executeScript("arguments[0].scrollIntoView({block:'center'});", cart);
