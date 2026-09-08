@@ -83,7 +83,7 @@ public class D_Prod_to_card extends WebDriverwait {
 		return names;
 	}
 
-	public void addToCart(String Prod) {
+	public void addToCart(String Prod) throws InterruptedException {
 
 
 				for (int i = 0; i < products.size(); i++) {
@@ -92,7 +92,7 @@ public class D_Prod_to_card extends WebDriverwait {
 
 					if (prodName.toLowerCase().contains(Prod.toLowerCase())) {
 
-						waitForAllElements(cartBtn);
+						Thread.sleep(10);
 						cartBtn.get(i).click();
 						waitForElement(cartClose);
 						cartClose.click();

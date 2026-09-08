@@ -12,7 +12,7 @@ import test_components.Base_class_step1;
 public class Testcase4_adding_prod_to_card extends Base_class_step1 {
 
 	@Test(groups = "regression")
-	public void addProdToCart() {
+	public void addProdToCart() throws InterruptedException {
 
 		A_registration LP = url.goToURL();
 		D_Prod_to_card cartProd = LP.cartProd();
