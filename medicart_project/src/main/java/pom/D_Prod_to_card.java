@@ -33,7 +33,7 @@ public class D_Prod_to_card extends WebDriverwait {
 	@FindBy(xpath = "//div[@class='t4s-product-wrapper']/descendant::a[@class='is--href-replaced']")
 	List<WebElement> products;
 
-	@FindBy(xpath = "//div[@class='t4s-product-wrapper']/descendant::span[contains(text(), 'Add to cart')]/parent::a")
+	@FindBy(xpath = "//div[@class='t4s-product-wrapper']//span[contains(normalize-space(), 'Add to cart')]/ancestor::*[self::button or self::a][1]")
 	List<WebElement> cartBtn;
 
 	@FindBy(xpath = "(//button[@class='t4s-drawer__close'])[1]")

@@ -1,186 +1,57 @@
-6:56:30 Microsoft.Shutdown.OnWindowClosing
-6:56:30 Microsoft.Shutdown.OnWindowClosing_DeleteScheduled
-6:56:30 Microsoft.Browser_Removed
-6:59:59 Microsoft.NewBrowser_Popup
-6:59:59 Microsoft.BrowserList.AddBrowser
-6:59:59 Browser26 Insert active Tab26 at 0
-6:59:59 Tab26 StartNav507 #auto_toplevel
-6:59:59 Tab26 StartNav508 #typed
-6:59:59 Tab26 FinishNav507
-6:59:59 Tab26 PageLoad
-6:59:59 Tab26 FinishNav508
-6:59:59 Tab26 PageLoad
-6:59:59 Tab26 StartNav509 #typed
-6:59:59 Tab26 FinishNav509
-6:59:59 Tab26 PageLoad
-7:00:02 Tab26 StartNav510 #typed
-7:00:02 Tab26 FinishNav510
-7:00:02 Tab26 PageLoad
-7:00:18 Tab26 StartNav511 #typed
-7:00:18 Tab26 FinishNav511
-7:00:18 Tab26 PageLoad
-7:00:36 Tab26 StartNav512 #typed
-7:00:36 Tab26 FinishNav512
-7:00:36 Tab26 PageLoad
-7:00:39 Tab26 StartNav513 #typed
-7:00:39 Tab26 FinishNav513
-7:00:39 Tab26 PageLoad
-7:00:40 Tab26 StartNav514 #typed
-7:00:40 Tab26 FinishNav514
-7:00:40 Tab26 PageLoad
-7:00:52 Tab26 StartNav515 #typed
-7:00:52 Tab26 FinishNav515
-7:00:52 Tab26 PageLoad
-7:00:54 Tab26 StartNav516 #typed
-7:00:54 Tab26 FinishNav516
-7:00:54 Tab26 PageLoad
-7:01:02 Tab26 StartNav517 #typed
-7:01:02 Tab26 FinishNav517
-7:01:02 Tab26 PageLoad
-7:01:05 Tab26 StartNav518 #typed
-7:01:05 Tab26 FinishNav518
-7:01:05 Tab26 PageLoad
-7:01:05 Tab26 StartNav519 #typed
-7:01:05 Tab26 FinishNav519
-7:01:05 Tab26 PageLoad
-7:01:13 Tab26 StartNav520 #typed
-7:01:13 Tab26 FinishNav520
-7:01:13 Tab26 PageLoad
-7:01:23 Tab26 StartNav521 #typed
-7:01:23 Tab26 FinishNav521
-7:01:23 Tab26 PageLoad
-7:01:33 Tab26 StartNav522 #typed
-7:01:33 Tab26 FinishNav522
-7:01:33 Tab26 PageLoad
-7:01:37 Tab26 StartNav523 #typed
-7:01:37 Tab26 FinishNav523
-7:01:38 Tab26 PageLoad
-7:01:38 Tab26 StartNav524 #typed
-7:01:38 Tab26 FinishNav524
-7:01:38 Tab26 PageLoad
-7:01:39 Tab26 StartNav525 #typed
-7:01:39 Tab26 FinishNav525
-7:01:39 Tab26 PageLoad
-7:01:39 Tab26 StartNav526 #typed
-7:01:39 Tab26 FinishNav526
-7:01:39 Tab26 PageLoad
-7:01:43 Tab26 StartNav527 #typed
-7:01:43 Tab26 FinishNav527
-7:01:43 Tab26 PageLoad
-7:02:11 Tab26 StartNav528 #typed
-7:02:11 Tab26 FinishNav528
-7:02:11 Tab26 PageLoad
-7:02:12 Tab26 StartNav529 #typed
-7:02:12 Tab26 FinishNav529
-7:02:12 Tab26 PageLoad
-7:02:30 Tab26 StartNav530 #typed
-7:02:30 Tab26 FinishNav530
-7:02:30 Tab26 PageLoad
-7:02:39 Tab26 StartNav531 #typed
-7:02:39 Tab26 FinishNav531
-7:02:39 Tab26 PageLoad
-7:02:39 Tab26 StartNav532 #typed
-7:02:39 Tab26 FinishNav532
-7:02:39 Tab26 PageLoad
-7:02:41 Tab26 StartNav533 #typed
-7:02:41 Tab26 FinishNav533
-7:02:41 Tab26 PageLoad
-7:02:43 Tab26 StartNav534 #typed
-7:02:43 Tab26 FinishNav534
-7:02:43 Tab26 PageLoad
-7:02:45 Tab26 StartNav535 #typed
-7:02:45 Tab26 FinishNav535
-7:02:45 Tab26 PageLoad
-7:02:48 Tab26 StartNav536 #typed
-7:02:48 Tab26 FinishNav536
-7:02:48 Tab26 PageLoad
-7:05:23 Tab26 StartNav537 #typed
-7:05:23 Tab26 FinishNav537
-7:05:23 Tab26 PageLoad
-7:05:25 Tab26 StartNav538 #typed
-7:05:25 Tab26 FinishNav538
-7:05:25 Tab26 PageLoad
-7:05:26 Tab26 StartNav539 #typed
-7:05:26 Tab26 FinishNav539
-7:05:26 Tab26 PageLoad
-7:05:28 Tab26 StartNav540 #typed
-7:05:28 Tab26 FinishNav540
-7:05:28 Tab26 PageLoad
-7:14:52 Tab26 StartNav541 #typed
-7:14:52 Tab26 FinishNav541
-7:14:52 Tab26 PageLoad
-7:14:55 Tab26 StartNav542 #typed
-7:14:55 Tab26 FinishNav542
-7:14:55 Tab26 PageLoad
-7:14:56 Tab26 StartNav543 #typed
-7:14:56 Tab26 FinishNav543
-7:14:56 Tab26 PageLoad
-7:14:59 Tab26 StartNav544 #typed
-7:14:59 Tab26 FinishNav544
-7:14:59 Tab26 PageLoad
-7:15:02 Tab26 StartNav545 #typed
-7:15:02 Tab26 FinishNav545
-7:15:02 Tab26 PageLoad
-7:15:05 Tab26 StartNav546 #typed
-7:15:05 Tab26 FinishNav546
-7:15:05 Tab26 PageLoad
-7:15:12 Tab26 StartNav547 #typed
-7:15:12 Tab26 FinishNav547
-7:15:12 Tab26 PageLoad
-7:15:14 Tab26 StartNav548 #typed
-7:15:14 Tab26 FinishNav548
-7:15:14 Tab26 PageLoad
-7:15:15 Tab26 StartNav549 #typed
-7:15:15 Tab26 FinishNav549
-7:15:15 Tab26 PageLoad
-7:15:17 Tab26 StartNav550 #typed
-7:15:17 Tab26 FinishNav550
-7:15:17 Tab26 PageLoad
-7:15:18 Tab26 StartNav551 #typed
-7:15:18 Tab26 FinishNav551
-7:15:18 Tab26 PageLoad
-7:15:21 Tab26 StartNav552 #typed
-7:15:21 Tab26 FinishNav552
-7:15:21 Tab26 PageLoad
-7:15:31 Tab26 StartNav553 #typed
-7:15:31 Tab26 FinishNav553
-7:15:31 Tab26 PageLoad
-7:15:32 Tab26 StartNav554 #typed
-7:15:32 Tab26 FinishNav554
-7:15:32 Tab26 PageLoad
-7:15:36 Tab26 StartNav555 #typed
-7:15:36 Tab26 FinishNav555
-7:15:36 Tab26 PageLoad
-7:15:38 Tab26 StartNav556 #typed
-7:15:38 Tab26 FinishNav556
-7:15:38 Tab26 PageLoad
-7:15:43 Tab26 StartNav557 #typed
-7:15:43 Tab26 FinishNav557
-7:15:43 Tab26 PageLoad
-7:15:44 Tab26 StartNav558 #typed
-7:15:44 Tab26 FinishNav558
-7:15:44 Tab26 PageLoad
-7:15:46 Tab26 StartNav559 #typed
-7:15:46 Tab26 FinishNav559
-7:15:46 Tab26 PageLoad
-7:15:53 Tab26 StartNav560 #typed
-7:15:53 Tab26 FinishNav560
-7:15:53 Tab26 PageLoad
-7:16:00 Tab26 StartNav561 #typed
-7:16:00 Tab26 FinishNav561
-7:16:00 Tab26 PageLoad
-7:16:03 Tab26 StartNav562 #typed
-7:16:03 Tab26 FinishNav562
-7:16:03 Tab26 PageLoad
-7:16:05 Tab26 StartNav563 #typed
-7:16:05 Tab26 FinishNav563
-7:16:05 Tab26 PageLoad
-7:16:07 Tab26 StartNav564 #typed
-7:16:07 Tab26 FinishNav564
-7:16:07 Tab26 PageLoad
-7:17:17 Tab26 StartNav565 #typed
-7:17:17 Tab26 FinishNav565
-7:17:17 Tab26 PageLoad
-7:17:19 Tab26 StartNav566 #typed
-7:17:19 Tab26 FinishNav566
-7:17:19 Tab26 PageLoad
+7:21:26 Tab26 StartNav568 #typed
+7:21:26 Tab26 FinishNav568
+7:21:26 Tab26 PageLoad
+7:22:05 Tab26 StartNav569 #typed
+7:22:05 Tab26 FinishNav569
+7:22:05 Tab26 PageLoad
+7:22:16 Tab26 StartNav570 #typed
+7:22:16 Tab26 FinishNav570
+7:22:16 Tab26 PageLoad
+7:22:21 Tab26 StartNav571 #typed
+7:22:21 Tab26 FinishNav571
+7:22:21 Tab26 PageLoad
+7:22:30 Tab26 StartNav572 #typed
+7:22:30 Tab26 FinishNav572
+7:22:30 Tab26 PageLoad
+7:22:35 Tab26 StartNav573 #typed
+7:22:35 Tab26 FinishNav573
+7:22:35 Tab26 PageLoad
+7:22:35 Tab26 StartNav574 #typed
+7:22:35 Tab26 FinishNav574
+7:22:35 Tab26 PageLoad
+7:22:38 Tab26 StartNav575 #typed
+7:22:38 Tab26 FinishNav575
+7:22:38 Tab26 PageLoad
+7:22:44 Tab26 StartNav576 #typed
+7:22:44 Tab26 FinishNav576
+7:22:44 Tab26 PageLoad
+7:23:07 Tab26 StartNav577 #typed
+7:23:07 Tab26 FinishNav577
+7:23:07 Tab26 PageLoad
+7:23:10 Tab26 StartNav578 #typed
+7:23:10 Tab26 FinishNav578
+7:23:10 Tab26 PageLoad
+7:23:11 Tab26 StartNav579 #typed
+7:23:11 Tab26 FinishNav579
+7:23:11 Tab26 PageLoad
+7:23:20 Tab26 StartNav580 #typed
+7:23:20 Tab26 FinishNav580
+7:23:20 Tab26 PageLoad
+7:23:26 Tab26 StartNav581 #typed
+7:23:26 Tab26 FinishNav581
+7:23:26 Tab26 PageLoad
+7:23:32 Tab26 StartNav582 #typed
+7:23:32 Tab26 FinishNav582
+7:23:32 Tab26 PageLoad
+7:24:56 Tab26 StartNav583 #typed
+7:24:56 Tab26 FinishNav583
+7:24:56 Tab26 PageLoad
+7:25:03 Tab26 StartNav584 #typed
+7:25:03 Tab26 FinishNav584
+7:25:03 Tab26 PageLoad
+7:25:09 Tab26 StartNav585 #typed
+7:25:09 Tab26 FinishNav585
+7:25:09 Tab26 PageLoad
+7:25:17 Tab26 StartNav586 #typed
+7:25:17 Tab26 FinishNav586
+7:25:17 Tab26 PageLoad
