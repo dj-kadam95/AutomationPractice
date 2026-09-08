@@ -92,6 +92,7 @@ public class D_Prod_to_card extends WebDriverwait {
 
 					if (prodName.toLowerCase().contains(Prod.toLowerCase())) {
 
+						waitForAllElements(cartBtn);
 						cartBtn.get(i).click();
 						waitForElement(cartClose);
 						cartClose.click();
