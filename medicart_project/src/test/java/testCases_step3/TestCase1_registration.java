@@ -32,9 +32,9 @@ public class TestCase1_registration extends Base_class_step1 {
 	@DataProvider(name = "Data")
 	public Object[][] getData() throws EncryptedDocumentException, IOException {
 
-		FileInputStream excel = new FileInputStream("D:\\interview prep\\MedicardAcDetails.xlsx");
+		FileInputStream excel = new FileInputStream("F:\\DJ\\interview prep\\MedicardAcDetails.xlsx");
 		Workbook sheet = WorkbookFactory.create(excel);
-
+		
 		Object[][] data = new Object[1][5];
 
 		for (int j = 0, i = 0, k = 1; j <= 4; j++) {

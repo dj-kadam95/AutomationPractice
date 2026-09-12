@@ -17,6 +17,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Automation_practice/AutomationPractice/selenium-server-4.35.0.jar"/>
+	<classpathentry kind="lib" path="F:/Gitcode/Selenium_with_java/AutomationPractice/selenium-server-4.35.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

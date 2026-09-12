@@ -40,7 +40,7 @@ public class A01_data_driven_testing {
 	public static String[] data() throws EncryptedDocumentException, IOException {
 
 //      Step 1
-		FileInputStream excel = new FileInputStream("C:\\Users\\Dnyaneshwar\\Documents\\Java_Selenium\\DDT.xlsx");
+		FileInputStream excel = new FileInputStream("C:\\Users\\dgato\\OneDrive\\Documents\\Java_Selenium\\DDT.xlsx");
 
 //      Step 2
 		Workbook wb = WorkbookFactory.create(excel);

@@ -34,7 +34,7 @@ public class TestCase2_login extends Base_class_step1 {
 	@DataProvider(name = "Data")
 	public Object[][] getData() throws EncryptedDocumentException, IOException {
 
-		FileInputStream excel = new FileInputStream("D:\\interview prep\\MedicardAcDetails.xlsx");
+		FileInputStream excel = new FileInputStream("F:\\DJ\\interview prep\\MedicardAcDetails.xlsx");
 		Workbook sheet = WorkbookFactory.create(excel);
 
 		Object[][] data = new Object[1][3];
